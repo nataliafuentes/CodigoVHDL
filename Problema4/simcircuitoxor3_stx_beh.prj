@@ -1,0 +1,3 @@
+vhdl isim_temp "Xor2.vhd"
+vhdl isim_temp "Circuitoxor3.vhd"
+vhdl isim_temp "simcircuitoxor3.vhd"

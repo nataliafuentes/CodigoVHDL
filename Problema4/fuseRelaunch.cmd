@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/Problema4/simcircuitoxor3_isim_beh.exe" -prj "C:/Xilinx/Problema4/simcircuitoxor3_beh.prj" "work.simcircuitoxor3" 

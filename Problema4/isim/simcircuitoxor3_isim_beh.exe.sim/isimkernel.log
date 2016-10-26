@@ -1,0 +1,30 @@
+Command line:
+   simcircuitoxor3_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49565
+
+Sat Dec 19 13:36:49 2015
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 360.366 Meg
+
+ Total Signals          : 12
+ Total Nets             : 8
+ Total Signal Drivers   : 5
+ Total Blocks           : 6
+ Total Primitive Blocks : 4
+ Total Processes        : 5
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 368
+Total Line Count : 37
+Total Line Count : 37
+
+ Total Simulation Time: 0.421875 sec
+
+ Current Memory Usage: 517.661 Meg
+
+Sat Dec 19 13:38:55 2015
+

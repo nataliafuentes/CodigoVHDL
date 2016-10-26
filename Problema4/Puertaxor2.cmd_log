@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Xilinx/Problema4/Puertaxor2.xst" -ofn "C:/Xilinx/Problema4/Puertaxor2.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Problema4/Puertaxor2.xst" -ofn "C:/Xilinx/Problema4/Puertaxor2.syr" 

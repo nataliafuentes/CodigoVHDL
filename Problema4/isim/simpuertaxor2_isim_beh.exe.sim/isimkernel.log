@@ -1,0 +1,29 @@
+Command line:
+   simpuertaxor2_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49544
+
+Sat Dec 19 13:08:22 2015
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 360.358 Meg
+
+ Total Signals          : 4
+ Total Nets             : 3
+ Total Signal Drivers   : 2
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 363
+Total Line Count : 10
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 360.358 Meg
+
+Sat Dec 19 13:08:39 2015
+

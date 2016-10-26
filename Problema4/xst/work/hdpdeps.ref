@@ -1,0 +1,12 @@
+V3 7
+FL C:/Xilinx/Problema4/Circuitoxor3.vhd 2015/12/19.13:11:02 P.20131013
+EN work/Circuitoxor3 1450527069 FL C:/Xilinx/Problema4/Circuitoxor3.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Circuitoxor3/Behavioral 1450527070 \
+      FL C:/Xilinx/Problema4/Circuitoxor3.vhd EN work/Circuitoxor3 1450527069 \
+      CP Puertaxor2
+FL C:/Xilinx/Problema4/Xor2.vhd 2015/10/22.15:12:50 P.20131013
+EN work/Puertaxor2 1450527067 FL C:/Xilinx/Problema4/Xor2.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Puertaxor2/Behavioral 1450527068 \
+      FL C:/Xilinx/Problema4/Xor2.vhd EN work/Puertaxor2 1450527067
