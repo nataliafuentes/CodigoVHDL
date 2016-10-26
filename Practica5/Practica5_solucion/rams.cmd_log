@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Xilinx/Practica5/rams.xst" -ofn "C:/Xilinx/Practica5/rams.syr" 

@@ -1,0 +1,8 @@
+vhdl work "C:\Users\usuario_local\Xilinx\Practica5\sumador_restador.vhd"
+vhdl work "C:\Users\usuario_local\Xilinx\Practica5\registro_4bit.vhd"
+vhdl work "C:\Users\usuario_local\Xilinx\Practica5\registro.vhd"
+vhdl work "C:\Users\usuario_local\Xilinx\Practica5\rams.vhd"
+vhdl work "C:\Users\usuario_local\Xilinx\Practica5\conv_7seg.vhd"
+vhdl work "C:\Users\usuario_local\Xilinx\Practica5\conversor.vhd"
+vhdl work "C:\Users\usuario_local\Xilinx\Practica5\contador.vhd"
+vhdl work "C:\Users\usuario_local\Xilinx\Practica5\data_path.vhd"

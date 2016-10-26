@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Xilinx/Practica5/registro.xst" -ofn "C:/Xilinx/Practica5/registro.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Practica5/registro.xst" -ofn "C:/Xilinx/Practica5/registro.syr" 

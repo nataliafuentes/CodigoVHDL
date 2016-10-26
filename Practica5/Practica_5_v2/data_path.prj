@@ -1,0 +1,3 @@
+vhdl work "registro.vhd"
+vhdl work "rams.vhd"
+vhdl work "data_path.vhd"

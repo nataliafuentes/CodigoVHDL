@@ -1,0 +1,74 @@
+V3 43
+FL C:/Users/usuario_local/Xilinx/Practica5/black_jack.vhd 2015/12/16.19:38:58 P.15xf
+EN work/black_jack 1450292070 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/black_jack.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/black_jack/estructural 1450292071 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/black_jack.vhd \
+      EN work/black_jack 1450292070 CP controller CP data_path
+FL C:/Users/usuario_local/Xilinx/Practica5/contador.vhd 2015/12/16.16:11:58 P.15xf
+EN work/contador 1450292056 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/contador.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/contador/Behavioral 1450292057 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/contador.vhd EN work/contador 1450292056
+FL C:/Users/usuario_local/Xilinx/Practica5/controller.vhd 2015/12/16.19:54:04 P.15xf
+EN work/controller 1450292066 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/controller.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/controller/Behavioral 1450292067 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/controller.vhd \
+      EN work/controller 1450292066 CP registro_1bit
+FL C:/Users/usuario_local/Xilinx/Practica5/conversor.vhd 2015/12/15.13:53:02 P.15xf
+EN work/conversor 1450292058 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/conversor.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/conversor/Behavioral 1450292059 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/conversor.vhd EN work/conversor 1450292058
+FL C:/Users/usuario_local/Xilinx/Practica5/conv_7seg.vhd 2015/12/16.19:49:25 P.15xf
+EN work/conv_7seg 1450292060 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/conv_7seg.vhd \
+      PB ieee/std_logic_1164 1335251622
+AR work/conv_7seg/Behavioral 1450292061 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/conv_7seg.vhd EN work/conv_7seg 1450292060
+FL C:/Users/usuario_local/Xilinx/Practica5/data_path.vhd 2015/12/16.19:46:16 P.15xf
+EN work/data_path 1450292068 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/data_path.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/data_path/estructural 1450292069 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/data_path.vhd EN work/data_path 1450292068 \
+      CP registro CP registro_4bit CP rams CP contador CP conversor CP conv_7seg \
+      CP sumador_restador
+FL C:/Users/usuario_local/Xilinx/Practica5/rams.vhd 2015/12/14.12:41:36 P.15xf
+EN work/rams 1450292054 FL C:/Users/usuario_local/Xilinx/Practica5/rams.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/std_logic_arith 1335251623 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/rams/circuito 1450292055 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/rams.vhd EN work/rams 1450292054
+FL C:/Users/usuario_local/Xilinx/Practica5/registro.vhd 2015/12/14.13:49:48 P.15xf
+EN work/registro 1450292050 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/registro.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/registro/Behavioral 1450292051 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/registro.vhd EN work/registro 1450292050
+FL C:/Users/usuario_local/Xilinx/Practica5/registro_1bit.vhd 2015/12/16.15:58:54 P.15xf
+EN work/registro_1bit 1450292064 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/registro_1bit.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/registro_1bit/Behavioral 1450292065 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/registro_1bit.vhd \
+      EN work/registro_1bit 1450292064
+FL C:/Users/usuario_local/Xilinx/Practica5/registro_4bit.vhd 2015/12/16.16:31:08 P.15xf
+EN work/registro_4bit 1450292052 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/registro_4bit.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/registro_4bit/Behavioral 1450292053 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/registro_4bit.vhd \
+      EN work/registro_4bit 1450292052
+FL C:/Users/usuario_local/Xilinx/Practica5/sumador_restador.vhd 2015/12/16.19:22:52 P.15xf
+EN work/sumador_restador 1450292062 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/sumador_restador.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/sumador_restador/Behavioral 1450292063 \
+      FL C:/Users/usuario_local/Xilinx/Practica5/sumador_restador.vhd \
+      EN work/sumador_restador 1450292062

@@ -1,0 +1,38 @@
+Running: C:\software\electronica\xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/usuario_local/Xilinx/Practica5/simblack_jack_isim_beh.exe -prj C:/Users/usuario_local/Xilinx/Practica5/simblack_jack_beh.prj work.simblack_jack 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/usuario_local/Xilinx/Practica5/registro_1bit.vhd" into library work
+Parsing VHDL file "C:/Users/usuario_local/Xilinx/Practica5/registro.vhd" into library work
+Parsing VHDL file "C:/Users/usuario_local/Xilinx/Practica5/rams.vhd" into library work
+Parsing VHDL file "C:/Users/usuario_local/Xilinx/Practica5/conv_7seg.vhd" into library work
+Parsing VHDL file "C:/Users/usuario_local/Xilinx/Practica5/conversor.vhd" into library work
+Parsing VHDL file "C:/Users/usuario_local/Xilinx/Practica5/contador.vhd" into library work
+Parsing VHDL file "C:/Users/usuario_local/Xilinx/Practica5/data_path.vhd" into library work
+Parsing VHDL file "C:/Users/usuario_local/Xilinx/Practica5/controller.vhd" into library work
+Parsing VHDL file "C:/Users/usuario_local/Xilinx/Practica5/black_jack.vhd" into library work
+Parsing VHDL file "C:/Users/usuario_local/Xilinx/Practica5/simblack_jack.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity registro_1bit [registro_1bit_default]
+Compiling architecture behavioral of entity controller [controller_default]
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity registro [registro_default]
+Compiling architecture circuito of entity rams [rams_default]
+Compiling architecture behavioral of entity contador [contador_default]
+Compiling architecture behavioral of entity conversor [conversor_default]
+Compiling architecture behavioral of entity conv_7seg [conv_7seg_default]
+Compiling architecture estructural of entity data_path [data_path_default]
+Compiling architecture estructural of entity black_jack [black_jack_default]
+Compiling architecture behavior of entity simblack_jack
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 24 VHDL Units
+Built simulation executable C:/Users/usuario_local/Xilinx/Practica5/simblack_jack_isim_beh.exe
+Fuse Memory Usage: 38140 KB
+Fuse CPU Usage: 561 ms

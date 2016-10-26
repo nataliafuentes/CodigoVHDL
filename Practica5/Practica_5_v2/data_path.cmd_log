@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "F:/TOC/Practica_5_v2/data_path.xst" -ofn "F:/TOC/Practica_5_v2/data_path.syr" 

@@ -1,0 +1,16 @@
+AR registro behavioral C:/Xilinx/Practica5/registro.vhd sub00/vhpl03 1450194353
+AR black_jack estructural C:/Xilinx/Practica5/black_jack.vhd sub00/vhpl15 1450194367
+EN data_path NULL C:/Xilinx/Practica5/data_path.vhd sub00/vhpl10 1450194364
+AR data_path estructural C:/Xilinx/Practica5/data_path.vhd sub00/vhpl13 1450194365
+AR conv_7seg behavioral C:/Xilinx/Practica5/conv_7seg.vhd sub00/vhpl09 1450194361
+EN black_jack NULL C:/Xilinx/Practica5/black_jack.vhd sub00/vhpl14 1450194366
+AR rams circuito C:/Xilinx/Practica5/rams.vhd sub00/vhpl05 1450194355
+EN conversor NULL C:/Xilinx/Practica5/conversor.vhd sub00/vhpl06 1450194358
+EN conv_7seg NULL C:/Xilinx/Practica5/conv_7seg.vhd sub00/vhpl08 1450194360
+AR conversor behavioral C:/Xilinx/Practica5/conversor.vhd sub00/vhpl07 1450194359
+EN rams NULL C:/Xilinx/Practica5/rams.vhd sub00/vhpl04 1450194354
+EN contador NULL C:/Xilinx/Practica5/contador.vhd sub00/vhpl11 1450194356
+EN controller NULL C:/Xilinx/Practica5/controller.vhd sub00/vhpl00 1450194362
+AR controller behavioral C:/Xilinx/Practica5/controller.vhd sub00/vhpl01 1450194363
+AR contador behavioral C:/Xilinx/Practica5/contador.vhd sub00/vhpl12 1450194357
+EN registro NULL C:/Xilinx/Practica5/registro.vhd sub00/vhpl02 1450194352

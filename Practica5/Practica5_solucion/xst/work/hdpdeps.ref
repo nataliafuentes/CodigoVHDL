@@ -1,0 +1,43 @@
+V3 31
+FL C:/Xilinx/Practica5/black_jack.vhd 2015/12/15.16:26:46 P.20131013
+EN work/black_jack 1450194366 FL C:/Xilinx/Practica5/black_jack.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/black_jack/estructural 1450194367 \
+      FL C:/Xilinx/Practica5/black_jack.vhd EN work/black_jack 1450194366 \
+      CP controller CP data_path
+FL C:/Xilinx/Practica5/contador.vhd 2015/12/15.15:29:13 P.20131013
+EN work/contador 1450194356 FL C:/Xilinx/Practica5/contador.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/contador/Behavioral 1450194357 \
+      FL C:/Xilinx/Practica5/contador.vhd EN work/contador 1450194356
+FL C:/Xilinx/Practica5/controller.vhd 2015/12/15.16:31:43 P.20131013
+EN work/controller 1450194362 FL C:/Xilinx/Practica5/controller.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/controller/Behavioral 1450194363 \
+      FL C:/Xilinx/Practica5/controller.vhd EN work/controller 1450194362
+FL C:/Xilinx/Practica5/conversor.vhd 2015/12/15.13:53:01 P.20131013
+EN work/conversor 1450194358 FL C:/Xilinx/Practica5/conversor.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/conversor/Behavioral 1450194359 \
+      FL C:/Xilinx/Practica5/conversor.vhd EN work/conversor 1450194358
+FL C:/Xilinx/Practica5/conv_7seg.vhd 2015/12/15.14:18:31 P.20131013
+EN work/conv_7seg 1450194360 FL C:/Xilinx/Practica5/conv_7seg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/conv_7seg/Behavioral 1450194361 \
+      FL C:/Xilinx/Practica5/conv_7seg.vhd EN work/conv_7seg 1450194360
+FL C:/Xilinx/Practica5/data_path.vhd 2015/12/15.16:07:59 P.20131013
+EN work/data_path 1450194364 FL C:/Xilinx/Practica5/data_path.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/data_path/estructural 1450194365 \
+      FL C:/Xilinx/Practica5/data_path.vhd EN work/data_path 1450194364 \
+      CP registro CP rams CP contador CP conversor CP conv_7seg
+FL C:/Xilinx/Practica5/rams.vhd 2015/12/14.12:41:36 P.20131013
+EN work/rams 1450194354 FL C:/Xilinx/Practica5/rams.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/rams/circuito 1450194355 \
+      FL C:/Xilinx/Practica5/rams.vhd EN work/rams 1450194354
+FL C:/Xilinx/Practica5/registro.vhd 2015/12/14.13:49:48 P.20131013
+EN work/registro 1450194352 FL C:/Xilinx/Practica5/registro.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/registro/Behavioral 1450194353 \
+      FL C:/Xilinx/Practica5/registro.vhd EN work/registro 1450194352

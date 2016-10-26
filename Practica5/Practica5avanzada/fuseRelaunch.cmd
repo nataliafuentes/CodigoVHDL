@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/usuario_local/Xilinx/Practica5/simblack_jack_isim_beh.exe" -prj "C:/Users/usuario_local/Xilinx/Practica5/simblack_jack_beh.prj" "work.simblack_jack" 

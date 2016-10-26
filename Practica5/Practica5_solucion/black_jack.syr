@@ -1,0 +1,547 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Reading design: black_jack.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "black_jack.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "black_jack"
+Output Format                      : NGC
+Target Device                      : xc3s1000-5-ft256
+
+---- Source Options
+Top Module Name                    : black_jack
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/Practica5/registro.vhd" in Library work.
+Architecture behavioral of Entity registro is up to date.
+Compiling vhdl file "C:/Xilinx/Practica5/rams.vhd" in Library work.
+Architecture circuito of Entity rams is up to date.
+Compiling vhdl file "C:/Xilinx/Practica5/contador.vhd" in Library work.
+Architecture behavioral of Entity contador is up to date.
+Compiling vhdl file "C:/Xilinx/Practica5/conversor.vhd" in Library work.
+Architecture behavioral of Entity conversor is up to date.
+Compiling vhdl file "C:/Xilinx/Practica5/conv_7seg.vhd" in Library work.
+Architecture behavioral of Entity conv_7seg is up to date.
+Compiling vhdl file "C:/Xilinx/Practica5/controller.vhd" in Library work.
+Architecture behavioral of Entity controller is up to date.
+Compiling vhdl file "C:/Xilinx/Practica5/data_path.vhd" in Library work.
+Architecture estructural of Entity data_path is up to date.
+Compiling vhdl file "C:/Xilinx/Practica5/black_jack.vhd" in Library work.
+Architecture estructural of Entity black_jack is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <black_jack> in library <work> (architecture <estructural>).
+
+Analyzing hierarchy for entity <controller> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <data_path> in library <work> (architecture <estructural>).
+
+Analyzing hierarchy for entity <registro> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rams> in library <work> (architecture <circuito>).
+
+Analyzing hierarchy for entity <contador> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <conversor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <conv_7seg> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <black_jack> in library <work> (Architecture <estructural>).
+Entity <black_jack> analyzed. Unit <black_jack> generated.
+
+Analyzing Entity <controller> in library <work> (Architecture <behavioral>).
+Entity <controller> analyzed. Unit <controller> generated.
+
+Analyzing Entity <data_path> in library <work> (Architecture <estructural>).
+Entity <data_path> analyzed. Unit <data_path> generated.
+
+Analyzing Entity <registro> in library <work> (Architecture <behavioral>).
+Entity <registro> analyzed. Unit <registro> generated.
+
+Analyzing Entity <rams> in library <work> (Architecture <circuito>).
+Entity <rams> analyzed. Unit <rams> generated.
+
+Analyzing Entity <contador> in library <work> (Architecture <behavioral>).
+Entity <contador> analyzed. Unit <contador> generated.
+
+Analyzing Entity <conversor> in library <work> (Architecture <behavioral>).
+Entity <conversor> analyzed. Unit <conversor> generated.
+
+Analyzing Entity <conv_7seg> in library <work> (Architecture <behavioral>).
+Entity <conv_7seg> analyzed. Unit <conv_7seg> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <controller>.
+    Related source file is "C:/Xilinx/Practica5/controller.vhd".
+    Found finite state machine <FSM_0> for signal <STATE>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 8                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <controller> synthesized.
+
+
+Synthesizing Unit <registro>.
+    Related source file is "C:/Xilinx/Practica5/registro.vhd".
+    Found 6-bit register for signal <Q>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <registro> synthesized.
+
+
+Synthesizing Unit <rams>.
+    Related source file is "C:/Xilinx/Practica5/rams.vhd".
+    Found 64x4-bit single-port RAM <Mram_RAM> for signal <RAM>.
+    Found 4-bit register for signal <do>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   4 D-type flip-flop(s).
+Unit <rams> synthesized.
+
+
+Synthesizing Unit <contador>.
+    Related source file is "C:/Xilinx/Practica5/contador.vhd".
+    Found 6-bit up counter for signal <B_i>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <contador> synthesized.
+
+
+Synthesizing Unit <conversor>.
+    Related source file is "C:/Xilinx/Practica5/conversor.vhd".
+    Found 32x8-bit ROM for signal <$rom0000>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <conversor> synthesized.
+
+
+Synthesizing Unit <conv_7seg>.
+    Related source file is "C:/Xilinx/Practica5/conv_7seg.vhd".
+    Found 16x7-bit ROM for signal <display>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <conv_7seg> synthesized.
+
+
+Synthesizing Unit <data_path>.
+    Related source file is "C:/Xilinx/Practica5/data_path.vhd".
+    Found 6-bit comparator less for signal <punt$cmp_lt0000> created at line 112.
+    Found 6-bit adder for signal <sum_i>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <data_path> synthesized.
+
+
+Synthesizing Unit <black_jack>.
+    Related source file is "C:/Xilinx/Practica5/black_jack.vhd".
+Unit <black_jack> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 64x4-bit single-port RAM                              : 1
+# ROMs                                                 : 3
+ 16x7-bit ROM                                          : 2
+ 32x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 1
+ 6-bit adder                                           : 1
+# Counters                                             : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 3
+ 4-bit register                                        : 1
+ 6-bit register                                        : 2
+# Comparators                                          : 1
+ 6-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <controlador/STATE/FSM> on signal <STATE[1:8]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ s0    | 00000001
+ s1    | 00000010
+ s2    | 00000100
+ s3    | 00001000
+ s4    | 00010000
+ s5    | 00100000
+ s6    | 01000000
+ s7    | 10000000
+-------------------
+
+Synthesizing (advanced) Unit <rams>.
+INFO:Xst:3231 - The small RAM <Mram_RAM> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 64-word x 4-bit                     |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <we>            | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <rams> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# RAMs                                                 : 1
+ 64x4-bit single-port distributed RAM                  : 1
+# ROMs                                                 : 3
+ 16x7-bit ROM                                          : 2
+ 32x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 1
+ 6-bit adder                                           : 1
+# Counters                                             : 1
+ 6-bit up counter                                      : 1
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+# Comparators                                          : 1
+ 6-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <black_jack> ...
+
+Optimizing unit <data_path> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block black_jack, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 30
+ Flip-Flops                                            : 30
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : black_jack.ngr
+Top Level Output File Name         : black_jack
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 26
+
+Cell Usage :
+# BELS                             : 71
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 11
+#      LUT2_L                      : 2
+#      LUT3                        : 13
+#      LUT3_D                      : 1
+#      LUT3_L                      : 1
+#      LUT4                        : 33
+#      LUT4_D                      : 2
+#      LUT4_L                      : 2
+#      MUXF5                       : 3
+#      VCC                         : 1
+# FlipFlops/Latches                : 30
+#      FD                          : 4
+#      FDC                         : 13
+#      FDCE                        : 12
+#      FDP                         : 1
+# RAMS                             : 8
+#      RAM32X1S                    : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 25
+#      IBUF                        : 4
+#      OBUF                        : 21
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1000ft256-5 
+
+ Number of Slices:                       45  out of   7680     0%  
+ Number of Slice Flip Flops:             30  out of  15360     0%  
+ Number of 4 input LUTs:                 82  out of  15360     0%  
+    Number used as logic:                66
+    Number used as RAMs:                 16
+ Number of IOs:                          26
+ Number of bonded IOBs:                  26  out of    173    15%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 38    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 26    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 6.337ns (Maximum Frequency: 157.795MHz)
+   Minimum input arrival time before clock: 4.923ns
+   Maximum output required time after clock: 10.847ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.337ns (frequency: 157.795MHz)
+  Total number of paths / destination ports: 386 / 90
+-------------------------------------------------------------------------
+Delay:               6.337ns (Levels of Logic = 3)
+  Source:            ruta_datos/reg_score/Q_1 (FF)
+  Destination:       ruta_datos/reg_score/Q_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: ruta_datos/reg_score/Q_1 to ruta_datos/reg_score/Q_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             9   0.626   1.250  ruta_datos/reg_score/Q_1 (ruta_datos/reg_score/Q_1)
+     LUT2:I0->O            1   0.479   0.704  ruta_datos/punt<1>_SW0 (N18)
+     LUT4_D:I3->O          8   0.479   0.944  ruta_datos/punt<1> (punt_i<1>)
+     LUT4:I3->O            6   0.479   0.853  controlador/control_aux_1_mux0001 (control_i<1>)
+     FDCE:CE                   0.524          ruta_datos/reg_score/Q_0
+    ----------------------------------------
+    Total                      6.337ns (2.587ns logic, 3.750ns route)
+                                       (40.8% logic, 59.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 8 / 4
+-------------------------------------------------------------------------
+Offset:              4.923ns (Levels of Logic = 4)
+  Source:            b_pl (PAD)
+  Destination:       controlador/STATE_FSM_FFd7 (FF)
+  Destination Clock: clk rising
+
+  Data Path: b_pl to controlador/STATE_FSM_FFd7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.715   1.040  b_pl_IBUF (b_pl_IBUF)
+     LUT2:I0->O            1   0.479   0.704  controlador/STATE_FSM_FFd7-In4 (controlador/STATE_FSM_FFd7-In4)
+     LUT4:I3->O            1   0.479   0.851  controlador/STATE_FSM_FFd7-In10 (controlador/STATE_FSM_FFd7-In10)
+     LUT4:I1->O            1   0.479   0.000  controlador/STATE_FSM_FFd7-In30 (controlador/STATE_FSM_FFd7-In)
+     FDC:D                     0.176          controlador/STATE_FSM_FFd7
+    ----------------------------------------
+    Total                      4.923ns (2.328ns logic, 2.595ns route)
+                                       (47.3% logic, 52.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 208 / 20
+-------------------------------------------------------------------------
+Offset:              10.847ns (Levels of Logic = 4)
+  Source:            ruta_datos/reg_score/Q_2 (FF)
+  Destination:       punt1<5> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: ruta_datos/reg_score/Q_2 to punt1<5>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            13   0.626   1.290  ruta_datos/reg_score/Q_2 (ruta_datos/reg_score/Q_2)
+     LUT3:I0->O            1   0.479   0.704  ruta_datos/converBCD/punt1<0>_SW0 (N4)
+     LUT4:I3->O            7   0.479   1.201  ruta_datos/converBCD/punt1<0> (ruta_datos/punt1_i<0>)
+     LUT4:I0->O            1   0.479   0.681  ruta_datos/conver7seg1/Mrom_display51 (punt1_5_OBUF)
+     OBUF:I->O                 4.909          punt1_5_OBUF (punt1<5>)
+    ----------------------------------------
+    Total                     10.847ns (6.972ns logic, 3.875ns route)
+                                       (64.3% logic, 35.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 13.25 secs
+ 
+--> 
+
+Total memory usage is 249508 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

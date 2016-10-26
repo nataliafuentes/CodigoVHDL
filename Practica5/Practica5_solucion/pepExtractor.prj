@@ -1,0 +1,8 @@
+work	"black_jack.vhd"
+work	"contador.vhd"
+work	"controller.vhd"
+work	"conv_7seg.vhd"
+work	"conversor.vhd"
+work	"data_path.vhd"
+work	"rams.vhd"
+work	"registro.vhd"

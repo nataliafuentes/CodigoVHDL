@@ -1,0 +1,95 @@
+#salida del oscilador a 100MHz
+#
+NET clk LOC=T9;
+#
+
+	#switches placa superior
+
+#NET divisor<0> LOC=K4;
+#NET divisor<1> LOC=K3;
+#NET divisor<2> LOC=K2;
+#NET SW<4> LOC=J4;
+
+	#switches placa extendida
+
+NET start LOC=P12;
+#NET dividend<1> LOC=J1;
+#NET dividend<2> LOC=H1;
+#NET dividend<3> LOC=H3;
+#NET dividend<4> LOC=G2;
+#NET dividend<5> LOC=K15;
+#NET start LOC=K16;
+NET reset LOC=F15;
+
+#
+	#push buttons placa superior
+#NET SW2 LOC=E11; 
+#NET SW3 LOC=A13; 
+
+	# Push button placa extendida
+NET b_pc LOC=H4;
+NET b_pl LOC=L5;
+#NET pushb3 LOC=N2;
+#NET b_pl LOC=M3;
+
+
+#barra de leds placa extendida
+
+#NET carta_act<0> LOC=L5;
+NET carta_act<0> LOC=N2;
+NET carta_act<1> LOC=M3;
+NET carta_act<2> LOC=N1;
+NET carta_act<3> LOC=T13;
+#NET quotient<5> LOC=L15;
+#NET leds<7> LOC=J13;
+NET perder LOC=H15;
+NET carta_inc LOC=J16;
+NET ready LOC=J14;
+
+ 
+
+#Display 7-segmentos 
+#
+#		   S0
+#		   ---
+#	    S5	|	|s1
+#		    S6
+#		   ---
+#	    S4	|	|S2
+#
+#		   ---
+#		   S3
+
+
+#Display 7-segmentos de la placa superior
+
+net fichas<0> loc=R10;
+net fichas<1> loc=P10;
+net fichas<2> loc=M11;
+NET fichas<3> loc=M6;
+NET fichas<4> loc=N6;
+NET fichas<5> loc=T7;
+NET fichas<6> loc=R7;
+
+#Display 7-segmentos de la parte izquierda de la placa extendida:
+
+NET punt2<0> LOC=H14;
+NET punt2<1> LOC=M4;
+NET punt2<2> LOC=P1;
+NET punt2<3> LOC=N3;
+NET punt2<4> LOC=M15;
+NET punt2<5> LOC=H13;
+NET punt2<6> LOC=G16;
+
+
+
+
+#Display 7-segmentos de la parte derecha de la placa extendida
+
+NET punt1<0> loc=E2;
+NET punt1<1> loc=E1;
+NET punt1<2> loc=F3;
+NET punt1<3> loc=F2;
+NET punt1<4> loc=G4;
+NET punt1<5> loc=G3;
+NET punt1<6> loc=G1;

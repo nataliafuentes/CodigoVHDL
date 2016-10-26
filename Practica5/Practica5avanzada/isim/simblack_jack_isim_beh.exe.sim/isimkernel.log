@@ -1,0 +1,28 @@
+Command line:
+   simblack_jack_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1687
+
+Wed Dec 16 16:26:04 2015
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 826.429 Meg
+
+ Total Signals          : 111
+ Total Nets             : 407
+ Total Signal Drivers   : 43
+ Total Blocks           : 17
+ Total Primitive Blocks : 13
+ Total Processes        : 32
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 909
+
+ Total Simulation Time: 0.218401 sec
+
+ Current Memory Usage: 669.143 Meg
+
+Wed Dec 16 16:35:50 2015
+

@@ -1,0 +1,6 @@
+vhdl work "registro.vhd"
+vhdl work "rams.vhd"
+vhdl work "conv_7seg.vhd"
+vhdl work "conversor.vhd"
+vhdl work "contador.vhd"
+vhdl work "data_path.vhd"

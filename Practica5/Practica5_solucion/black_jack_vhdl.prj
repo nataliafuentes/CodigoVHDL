@@ -1,0 +1,8 @@
+vhdl work "C:\Xilinx\Practica5\registro.vhd"
+vhdl work "C:\Xilinx\Practica5\rams.vhd"
+vhdl work "C:\Xilinx\Practica5\conv_7seg.vhd"
+vhdl work "C:\Xilinx\Practica5\conversor.vhd"
+vhdl work "C:\Xilinx\Practica5\contador.vhd"
+vhdl work "C:\Xilinx\Practica5\data_path.vhd"
+vhdl work "C:\Xilinx\Practica5\controller.vhd"
+vhdl work "C:\Xilinx\Practica5\black_jack.vhd"
