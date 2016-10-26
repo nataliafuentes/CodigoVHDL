@@ -1,0 +1,25 @@
+V3 15
+FL C:/Xilinx/Problema1/Codificador8a3.vhd 2015/12/19.12:12:38 P.20131013
+EN work/Codificador8a3 1450523564 FL C:/Xilinx/Problema1/Codificador8a3.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Codificador8a3/Behavioral 1450523565 \
+      FL C:/Xilinx/Problema1/Codificador8a3.vhd EN work/Codificador8a3 1450523564
+FL C:/Xilinx/Problema1/Comparador.vhd 2015/12/19.12:16:25 P.20131013
+EN work/Comparador 1450523790 FL C:/Xilinx/Problema1/Comparador.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Comparador/Behavioral 1450523791 \
+      FL C:/Xilinx/Problema1/Comparador.vhd EN work/Comparador 1450523790
+FL C:/Xilinx/Problema1/Decodificador3a8.vhd 2015/11/17.10:59:41 P.20131013
+EN work/Decodificador3a8 1450523115 FL C:/Xilinx/Problema1/Decodificador3a8.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Decodificador3a8/Behavioral 1450523116 \
+      FL C:/Xilinx/Problema1/Decodificador3a8.vhd EN work/Decodificador3a8 1450523115
+FL C:/Xilinx/Problema1/Multiplexor4a1.vhd 2015/11/17.10:53:03 P.20131013
+EN work/Multiplexor4a1 1450522496 FL C:/Xilinx/Problema1/Multiplexor4a1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Multiplexor4a1/Behavioral 1450522497 \
+      FL C:/Xilinx/Problema1/Multiplexor4a1.vhd EN work/Multiplexor4a1 1450522496
+FL C:/Xilinx/Problema1/xor.vhd 2015/10/20.13:42:46 P.20131013
+EN work/Puertaxor 1450522125 FL C:/Xilinx/Problema1/xor.vhd PB ieee/std_logic_1164 1381692176
+AR work/Puertaxor/Behavioral 1450522126 \
+      FL C:/Xilinx/Problema1/xor.vhd EN work/Puertaxor 1450522125

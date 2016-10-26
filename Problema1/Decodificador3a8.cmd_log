@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Xilinx/Problema1/Decodificador3a8.xst" -ofn "C:/Xilinx/Problema1/Decodificador3a8.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Problema1/Decodificador3a8.xst" -ofn "C:/Xilinx/Problema1/Decodificador3a8.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Problema1/Decodificador3a8.xst" -ofn "C:/Xilinx/Problema1/Decodificador3a8.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Problema1/Decodificador3a8.xst" -ofn "C:/Xilinx/Problema1/Decodificador3a8.syr" 

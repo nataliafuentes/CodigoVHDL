@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/Problema1/simcomparador_isim_beh.exe" -prj "C:/Xilinx/Problema1/simcomparador_beh.prj" "work.simcomparador" 

@@ -1,0 +1,29 @@
+Command line:
+   simcodificador8a3_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49417
+
+Sat Dec 19 12:13:58 2015
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 360.378 Meg
+
+ Total Signals          : 4
+ Total Nets             : 11
+ Total Signal Drivers   : 2
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 371
+Total Line Count : 20
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 674.968 Meg
+
+Sat Dec 19 12:15:11 2015
+

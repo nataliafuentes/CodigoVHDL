@@ -1,0 +1,10 @@
+EN codificador8a3 NULL C:/Xilinx/Problema1/Codificador8a3.vhd sub00/vhpl06 1450523564
+AR decodificador3a8 behavioral C:/Xilinx/Problema1/Decodificador3a8.vhd sub00/vhpl05 1450523116
+AR puertaxor behavioral C:/Xilinx/Problema1/xor.vhd sub00/vhpl01 1450522126
+AR multiplexor4a1 behavioral C:/Xilinx/Problema1/Multiplexor4a1.vhd sub00/vhpl03 1450522497
+AR comparador behavioral C:/Xilinx/Problema1/Comparador.vhd sub00/vhpl09 1450523791
+EN decodificador3a8 NULL C:/Xilinx/Problema1/Decodificador3a8.vhd sub00/vhpl04 1450523115
+EN comparador NULL C:/Xilinx/Problema1/Comparador.vhd sub00/vhpl08 1450523790
+EN multiplexor4a1 NULL C:/Xilinx/Problema1/Multiplexor4a1.vhd sub00/vhpl02 1450522496
+EN puertaxor NULL C:/Xilinx/Problema1/xor.vhd sub00/vhpl00 1450522125
+AR codificador8a3 behavioral C:/Xilinx/Problema1/Codificador8a3.vhd sub00/vhpl07 1450523565
