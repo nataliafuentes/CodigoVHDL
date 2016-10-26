@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/Problema3/simmultiplicarx3_isim_beh.exe" -prj "C:/Xilinx/Problema3/simmultiplicarx3_beh.prj" "simmultiplicarx3" 

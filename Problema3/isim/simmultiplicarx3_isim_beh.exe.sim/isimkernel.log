@@ -1,0 +1,29 @@
+Command line:
+   simmultiplicarx3_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49536
+
+Sat Dec 19 13:03:56 2015
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 360.485 Meg
+
+ Total Signals          : 6
+ Total Nets             : 8
+ Total Signal Drivers   : 3
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 2
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 491
+Total Line Count : 34
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 675.074 Meg
+
+Sat Dec 19 13:05:08 2015
+
