@@ -1,0 +1,14 @@
+AR updown_counter behavioral C:/Xilinx/Practica6/updown_counter.vhd sub00/vhpl01 1453303927
+AR sram_memory behavioral C:/Xilinx/Practica6/sram_memory.vhd sub00/vhpl09 1453303925
+EN multiplicador NULL C:/Xilinx/Practica6/multiplicador.vhd sub00/vhpl02 1453303922
+EN registrogenerico NULL C:/Xilinx/Practica6/registrogenerico.vhd sub00/vhpl06 1453303920
+AR registrogenerico behavioral C:/Xilinx/Practica6/registrogenerico.vhd sub00/vhpl07 1453303921
+EN data_path NULL C:/Xilinx/Practica6/data_path.vhd sub00/vhpl10 1453303930
+AR data_path estructural C:/Xilinx/Practica6/data_path.vhd sub00/vhpl11 1453303931
+EN updown_counter NULL C:/Xilinx/Practica6/updown_counter.vhd sub00/vhpl00 1453303926
+EN algorithmic NULL C:/Xilinx/Practica6/algorithmic.vhd sub00/vhpl12 1453303932
+EN sram_memory NULL C:/Xilinx/Practica6/sram_memory.vhd sub00/vhpl08 1453303924
+AR multiplicador behavioral C:/Xilinx/Practica6/multiplicador.vhd sub00/vhpl03 1453303923
+EN controller NULL C:/Xilinx/Practica6/controller.vhd sub00/vhpl04 1453303928
+AR controller behavioral C:/Xilinx/Practica6/controller.vhd sub00/vhpl05 1453303929
+AR algorithmic behavioral C:/Xilinx/Practica6/algorithmic.vhd sub00/vhpl13 1453303933

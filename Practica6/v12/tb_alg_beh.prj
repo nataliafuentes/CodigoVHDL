@@ -1,0 +1,8 @@
+vhdl work "../updown_counter.vhd"
+vhdl work "../sram_memory.vhd"
+vhdl work "../registrogenerico.vhd"
+vhdl work "../multiplicador.vhd"
+vhdl work "../data_path.vhd"
+vhdl work "../controller.vhd"
+vhdl work "../algorithmic.vhd"
+vhdl work "../simalgorithmic.vhd"

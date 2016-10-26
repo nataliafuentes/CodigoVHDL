@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/Practica6/tb_alg_isim_beh.exe" -prj "C:/Xilinx/Practica6/tb_alg_beh.prj" "work.tb_alg" 

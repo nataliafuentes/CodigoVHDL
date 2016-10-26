@@ -1,0 +1,39 @@
+V3 27
+FL F:/TOC/Practica6/algorithmic.vhd 2016/01/19.11:12:32 M.81d
+EN work/algorithmic 1453200564 FL F:/TOC/Practica6/algorithmic.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/algorithmic/Behavioral 1453200565 \
+      FL F:/TOC/Practica6/algorithmic.vhd EN work/algorithmic 1453200564 \
+      CP controller CP data_path
+FL F:/TOC/Practica6/controller.vhd 2016/01/18.21:22:04 M.81d
+EN work/controller 1453200560 FL F:/TOC/Practica6/controller.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/controller/Behavioral 1453200561 \
+      FL F:/TOC/Practica6/controller.vhd EN work/controller 1453200560
+FL F:/TOC/Practica6/data_path.vhd 2016/01/19.11:49:00 M.81d
+EN work/data_path 1453200562 FL F:/TOC/Practica6/data_path.vhd \
+      PB ieee/std_logic_1164 1290154108 PB ieee/NUMERIC_STD 1290154109
+AR work/data_path/estructural 1453200563 \
+      FL F:/TOC/Practica6/data_path.vhd EN work/data_path 1453200562 \
+      CP registrogenerico CP multiplicador CP sram_memory CP updown_counter
+FL F:/TOC/Practica6/multiplicador.vhd 2016/01/13.18:49:54 M.81d
+EN work/multiplicador 1453200554 FL F:/TOC/Practica6/multiplicador.vhd \
+      PB ieee/std_logic_1164 1290154108 PB ieee/NUMERIC_STD 1290154109
+AR work/multiplicador/Behavioral 1453200555 \
+      FL F:/TOC/Practica6/multiplicador.vhd EN work/multiplicador 1453200554
+FL F:/TOC/Practica6/registrogenerico.vhd 2016/01/18.16:54:30 M.81d
+EN work/registrogenerico 1453200552 FL F:/TOC/Practica6/registrogenerico.vhd \
+      PB ieee/std_logic_1164 1290154108
+AR work/registrogenerico/Behavioral 1453200553 \
+      FL F:/TOC/Practica6/registrogenerico.vhd EN work/registrogenerico 1453200552
+FL F:/TOC/Practica6/sram_memory.vhd 2016/01/18.15:10:44 M.81d
+EN work/sram_memory 1453200556 FL F:/TOC/Practica6/sram_memory.vhd \
+      PB ieee/std_logic_1164 1290154108 PB ieee/std_logic_arith 1290154109 \
+      PB ieee/STD_LOGIC_UNSIGNED 1290154110
+AR work/sram_memory/Behavioral 1453200557 \
+      FL F:/TOC/Practica6/sram_memory.vhd EN work/sram_memory 1453200556
+FL F:/TOC/Practica6/updown_counter.vhd 2016/01/18.16:55:12 M.81d
+EN work/updown_counter 1453200558 FL F:/TOC/Practica6/updown_counter.vhd \
+      PB ieee/std_logic_1164 1290154108 PB ieee/NUMERIC_STD 1290154109
+AR work/updown_counter/Behavioral 1453200559 \
+      FL F:/TOC/Practica6/updown_counter.vhd EN work/updown_counter 1453200558

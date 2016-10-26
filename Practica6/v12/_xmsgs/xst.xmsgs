@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">direccion_aux&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="3048" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_RAM</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM2</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM18</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM3</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM19</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM4</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM20</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM5</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM21</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM6</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM22</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM8</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM9</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM10</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM11</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM12</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM13</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM14</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM15</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM16</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM17</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM23</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM24</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM25</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM26</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM27</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM28</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM29</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM30</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM31</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">ruta_datos/memoria/Mram_RAM7</arg>&gt;, &lt;<arg fmt="%s" index="2">ruta_datos/memoria/Mram_RAM32</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ruta_datos/memoria/dout_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">algorithmic</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ruta_datos/memoria/dout_17&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ruta_datos/memoria/dout_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">algorithmic</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ruta_datos/memoria/dout_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ruta_datos/memoria/dout_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">algorithmic</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ruta_datos/memoria/dout_19&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ruta_datos/memoria/dout_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">algorithmic</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ruta_datos/memoria/dout_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ruta_datos/memoria/dout_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">algorithmic</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ruta_datos/memoria/dout_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ruta_datos/memoria/dout_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">algorithmic</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">20 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ruta_datos/memoria/dout_7&gt; &lt;ruta_datos/memoria/dout_8&gt; &lt;ruta_datos/memoria/dout_9&gt; &lt;ruta_datos/memoria/dout_10&gt; &lt;ruta_datos/memoria/dout_11&gt; &lt;ruta_datos/memoria/dout_12&gt; &lt;ruta_datos/memoria/dout_13&gt; &lt;ruta_datos/memoria/dout_14&gt; &lt;ruta_datos/memoria/dout_15&gt; &lt;ruta_datos/memoria/dout_16&gt; &lt;ruta_datos/memoria/dout_22&gt; &lt;ruta_datos/memoria/dout_23&gt; &lt;ruta_datos/memoria/dout_24&gt; &lt;ruta_datos/memoria/dout_25&gt; &lt;ruta_datos/memoria/dout_26&gt; &lt;ruta_datos/memoria/dout_27&gt; &lt;ruta_datos/memoria/dout_28&gt; &lt;ruta_datos/memoria/dout_29&gt; &lt;ruta_datos/memoria/dout_30&gt; &lt;ruta_datos/memoria/dout_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ruta_datos/reg_d/Q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">algorithmic</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">20 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ruta_datos/reg_d/Q_7&gt; &lt;ruta_datos/reg_d/Q_8&gt; &lt;ruta_datos/reg_d/Q_9&gt; &lt;ruta_datos/reg_d/Q_10&gt; &lt;ruta_datos/reg_d/Q_11&gt; &lt;ruta_datos/reg_d/Q_12&gt; &lt;ruta_datos/reg_d/Q_13&gt; &lt;ruta_datos/reg_d/Q_14&gt; &lt;ruta_datos/reg_d/Q_15&gt; &lt;ruta_datos/reg_d/Q_16&gt; &lt;ruta_datos/reg_d/Q_22&gt; &lt;ruta_datos/reg_d/Q_23&gt; &lt;ruta_datos/reg_d/Q_24&gt; &lt;ruta_datos/reg_d/Q_25&gt; &lt;ruta_datos/reg_d/Q_26&gt; &lt;ruta_datos/reg_d/Q_27&gt; &lt;ruta_datos/reg_d/Q_28&gt; &lt;ruta_datos/reg_d/Q_29&gt; &lt;ruta_datos/reg_d/Q_30&gt; &lt;ruta_datos/reg_d/Q_31&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ruta_datos/reg_d/Q_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">algorithmic</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ruta_datos/reg_d/Q_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ruta_datos/reg_d/Q_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">algorithmic</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ruta_datos/reg_d/Q_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ruta_datos/reg_d/Q_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">algorithmic</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ruta_datos/reg_d/Q_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ruta_datos/reg_d/Q_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">algorithmic</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ruta_datos/reg_d/Q_19&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ruta_datos/reg_d/Q_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">algorithmic</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ruta_datos/reg_d/Q_17&gt; </arg>
+</msg>
+
+</messages>
+

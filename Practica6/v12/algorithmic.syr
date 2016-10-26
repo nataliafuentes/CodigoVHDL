@@ -1,0 +1,607 @@
+Release 12.4 - xst M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.55 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.55 secs
+ 
+--> Reading design: algorithmic.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "algorithmic.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "algorithmic"
+Output Format                      : NGC
+Target Device                      : xc3s1000-4-ft256
+
+---- Source Options
+Top Module Name                    : algorithmic
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "F:/TOC/Practica6/registrogenerico.vhd" in Library work.
+Architecture behavioral of Entity registrogenerico is up to date.
+Compiling vhdl file "F:/TOC/Practica6/multiplicador.vhd" in Library work.
+Architecture behavioral of Entity multiplicador is up to date.
+Compiling vhdl file "F:/TOC/Practica6/sram_memory.vhd" in Library work.
+Architecture behavioral of Entity sram_memory is up to date.
+Compiling vhdl file "F:/TOC/Practica6/updown_counter.vhd" in Library work.
+Architecture behavioral of Entity updown_counter is up to date.
+Compiling vhdl file "F:/TOC/Practica6/controller.vhd" in Library work.
+Architecture behavioral of Entity controller is up to date.
+Compiling vhdl file "F:/TOC/Practica6/data_path.vhd" in Library work.
+Entity <data_path> compiled.
+Entity <data_path> (Architecture <estructural>) compiled.
+Compiling vhdl file "F:/TOC/Practica6/algorithmic.vhd" in Library work.
+Architecture behavioral of Entity algorithmic is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <algorithmic> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <controller> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <data_path> in library <work> (architecture <estructural>).
+
+Analyzing hierarchy for entity <registrogenerico> in library <work> (architecture <behavioral>) with generics.
+	m = 5
+
+Analyzing hierarchy for entity <registrogenerico> in library <work> (architecture <behavioral>) with generics.
+	m = 16
+
+Analyzing hierarchy for entity <registrogenerico> in library <work> (architecture <behavioral>) with generics.
+	m = 32
+
+Analyzing hierarchy for entity <multiplicador> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <sram_memory> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <updown_counter> in library <work> (architecture <behavioral>) with generics.
+	m = 5
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <algorithmic> in library <work> (Architecture <behavioral>).
+Entity <algorithmic> analyzed. Unit <algorithmic> generated.
+
+Analyzing Entity <controller> in library <work> (Architecture <behavioral>).
+Entity <controller> analyzed. Unit <controller> generated.
+
+Analyzing Entity <data_path> in library <work> (Architecture <estructural>).
+Entity <data_path> analyzed. Unit <data_path> generated.
+
+Analyzing generic Entity <registrogenerico.1> in library <work> (Architecture <behavioral>).
+	m = 5
+Entity <registrogenerico.1> analyzed. Unit <registrogenerico.1> generated.
+
+Analyzing generic Entity <registrogenerico.2> in library <work> (Architecture <behavioral>).
+	m = 16
+Entity <registrogenerico.2> analyzed. Unit <registrogenerico.2> generated.
+
+Analyzing generic Entity <registrogenerico.3> in library <work> (Architecture <behavioral>).
+	m = 32
+Entity <registrogenerico.3> analyzed. Unit <registrogenerico.3> generated.
+
+Analyzing Entity <multiplicador> in library <work> (Architecture <behavioral>).
+Entity <multiplicador> analyzed. Unit <multiplicador> generated.
+
+Analyzing Entity <sram_memory> in library <work> (Architecture <behavioral>).
+Entity <sram_memory> analyzed. Unit <sram_memory> generated.
+
+Analyzing generic Entity <updown_counter> in library <work> (Architecture <behavioral>).
+	m = 5
+Entity <updown_counter> analyzed. Unit <updown_counter> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <controller>.
+    Related source file is "F:/TOC/Practica6/controller.vhd".
+    Found finite state machine <FSM_0> for signal <STATE>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 14                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 13                                             |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <controller> synthesized.
+
+
+Synthesizing Unit <registrogenerico_1>.
+    Related source file is "F:/TOC/Practica6/registrogenerico.vhd".
+    Found 5-bit register for signal <Q>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+Unit <registrogenerico_1> synthesized.
+
+
+Synthesizing Unit <registrogenerico_2>.
+    Related source file is "F:/TOC/Practica6/registrogenerico.vhd".
+    Found 16-bit register for signal <Q>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <registrogenerico_2> synthesized.
+
+
+Synthesizing Unit <registrogenerico_3>.
+    Related source file is "F:/TOC/Practica6/registrogenerico.vhd".
+    Found 32-bit register for signal <Q>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <registrogenerico_3> synthesized.
+
+
+Synthesizing Unit <multiplicador>.
+    Related source file is "F:/TOC/Practica6/multiplicador.vhd".
+    Found 16x16-bit multiplier for signal <C_i>.
+    Summary:
+	inferred   1 Multiplier(s).
+Unit <multiplicador> synthesized.
+
+
+Synthesizing Unit <sram_memory>.
+    Related source file is "F:/TOC/Practica6/sram_memory.vhd".
+    Found 16x32-bit single-port RAM <Mram_RAM> for signal <RAM>.
+    Found 32-bit register for signal <dout>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  32 D-type flip-flop(s).
+Unit <sram_memory> synthesized.
+
+
+Synthesizing Unit <updown_counter>.
+    Related source file is "F:/TOC/Practica6/updown_counter.vhd".
+    Found 5-bit register for signal <do>.
+    Found 5-bit adder for signal <do$add0000> created at line 57.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <updown_counter> synthesized.
+
+
+Synthesizing Unit <data_path>.
+    Related source file is "F:/TOC/Practica6/data_path.vhd".
+WARNING:Xst:646 - Signal <direccion_aux<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 5-bit comparator equal for signal <num_k$cmp_eq0000> created at line 128.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <data_path> synthesized.
+
+
+Synthesizing Unit <algorithmic>.
+    Related source file is "F:/TOC/Practica6/algorithmic.vhd".
+Unit <algorithmic> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x32-bit single-port RAM                             : 1
+# Multipliers                                          : 1
+ 16x16-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 1
+ 5-bit adder                                           : 1
+# Registers                                            : 5
+ 16-bit register                                       : 1
+ 32-bit register                                       : 2
+ 5-bit register                                        : 2
+# Comparators                                          : 1
+ 5-bit comparator equal                                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <control/STATE/FSM> on signal <STATE[1:9]> with one-hot encoding.
+--------------------
+ State | Encoding
+--------------------
+ s0    | 000000001
+ s1    | 000000010
+ s2    | 000000100
+ s3    | 000001000
+ s4    | 000010000
+ s5    | 000100000
+ s6    | 001000000
+ s7    | 100000000
+ s8    | 010000000
+--------------------
+
+Synthesizing (advanced) Unit <sram_memory>.
+INFO:Xst:3048 - The small RAM <Mram_RAM> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 32-bit                    |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <sram_memory> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# RAMs                                                 : 1
+ 16x32-bit single-port distributed RAM                 : 1
+# Multipliers                                          : 1
+ 16x16-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 1
+ 5-bit adder                                           : 1
+# Registers                                            : 90
+ Flip-Flops                                            : 90
+# Comparators                                          : 1
+ 5-bit comparator equal                                : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <algorithmic> ...
+
+Optimizing unit <registrogenerico_2> ...
+
+Optimizing unit <registrogenerico_3> ...
+
+Optimizing unit <sram_memory> ...
+
+Optimizing unit <data_path> ...
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM2>, <ruta_datos/memoria/Mram_RAM18> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM3>, <ruta_datos/memoria/Mram_RAM19> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM4>, <ruta_datos/memoria/Mram_RAM20> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM5>, <ruta_datos/memoria/Mram_RAM21> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM6>, <ruta_datos/memoria/Mram_RAM22> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM8> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM9> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM10> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM11> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM12> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM13> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM14> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM15> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM16> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM17> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM23> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM24> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM25> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM26> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM27> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM28> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM29> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM30> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM31> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <ruta_datos/memoria/Mram_RAM7>, <ruta_datos/memoria/Mram_RAM32> are equivalent, second RAM is removed
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <ruta_datos/memoria/dout_1> in Unit <algorithmic> is equivalent to the following FF/Latch, which will be removed : <ruta_datos/memoria/dout_17> 
+INFO:Xst:2261 - The FF/Latch <ruta_datos/memoria/dout_2> in Unit <algorithmic> is equivalent to the following FF/Latch, which will be removed : <ruta_datos/memoria/dout_18> 
+INFO:Xst:2261 - The FF/Latch <ruta_datos/memoria/dout_3> in Unit <algorithmic> is equivalent to the following FF/Latch, which will be removed : <ruta_datos/memoria/dout_19> 
+INFO:Xst:2261 - The FF/Latch <ruta_datos/memoria/dout_4> in Unit <algorithmic> is equivalent to the following FF/Latch, which will be removed : <ruta_datos/memoria/dout_20> 
+INFO:Xst:2261 - The FF/Latch <ruta_datos/memoria/dout_5> in Unit <algorithmic> is equivalent to the following FF/Latch, which will be removed : <ruta_datos/memoria/dout_21> 
+INFO:Xst:2261 - The FF/Latch <ruta_datos/memoria/dout_6> in Unit <algorithmic> is equivalent to the following 20 FFs/Latches, which will be removed : <ruta_datos/memoria/dout_7> <ruta_datos/memoria/dout_8> <ruta_datos/memoria/dout_9> <ruta_datos/memoria/dout_10> <ruta_datos/memoria/dout_11> <ruta_datos/memoria/dout_12> <ruta_datos/memoria/dout_13> <ruta_datos/memoria/dout_14> <ruta_datos/memoria/dout_15> <ruta_datos/memoria/dout_16> <ruta_datos/memoria/dout_22> <ruta_datos/memoria/dout_23> <ruta_datos/memoria/dout_24> <ruta_datos/memoria/dout_25> <ruta_datos/memoria/dout_26> <ruta_datos/memoria/dout_27> <ruta_datos/memoria/dout_28> <ruta_datos/memoria/dout_29> <ruta_datos/memoria/dout_30> <ruta_datos/memoria/dout_31> 
+INFO:Xst:2261 - The FF/Latch <ruta_datos/reg_d/Q_6> in Unit <algorithmic> is equivalent to the following 20 FFs/Latches, which will be removed : <ruta_datos/reg_d/Q_7> <ruta_datos/reg_d/Q_8> <ruta_datos/reg_d/Q_9> <ruta_datos/reg_d/Q_10> <ruta_datos/reg_d/Q_11> <ruta_datos/reg_d/Q_12> <ruta_datos/reg_d/Q_13> <ruta_datos/reg_d/Q_14> <ruta_datos/reg_d/Q_15> <ruta_datos/reg_d/Q_16> <ruta_datos/reg_d/Q_22> <ruta_datos/reg_d/Q_23> <ruta_datos/reg_d/Q_24> <ruta_datos/reg_d/Q_25> <ruta_datos/reg_d/Q_26> <ruta_datos/reg_d/Q_27> <ruta_datos/reg_d/Q_28> <ruta_datos/reg_d/Q_29> <ruta_datos/reg_d/Q_30> <ruta_datos/reg_d/Q_31> 
+INFO:Xst:2261 - The FF/Latch <ruta_datos/reg_d/Q_4> in Unit <algorithmic> is equivalent to the following FF/Latch, which will be removed : <ruta_datos/reg_d/Q_20> 
+INFO:Xst:2261 - The FF/Latch <ruta_datos/reg_d/Q_5> in Unit <algorithmic> is equivalent to the following FF/Latch, which will be removed : <ruta_datos/reg_d/Q_21> 
+INFO:Xst:2261 - The FF/Latch <ruta_datos/reg_d/Q_2> in Unit <algorithmic> is equivalent to the following FF/Latch, which will be removed : <ruta_datos/reg_d/Q_18> 
+INFO:Xst:2261 - The FF/Latch <ruta_datos/reg_d/Q_3> in Unit <algorithmic> is equivalent to the following FF/Latch, which will be removed : <ruta_datos/reg_d/Q_19> 
+INFO:Xst:2261 - The FF/Latch <ruta_datos/reg_d/Q_1> in Unit <algorithmic> is equivalent to the following FF/Latch, which will be removed : <ruta_datos/reg_d/Q_17> 
+Found area constraint ratio of 100 (+ 5) on block algorithmic, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 49
+ Flip-Flops                                            : 49
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : algorithmic.ngr
+Top Level Output File Name         : algorithmic
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 58
+
+Cell Usage :
+# BELS                             : 83
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 36
+#      LUT3                        : 11
+#      LUT4                        : 29
+#      LUT4_D                      : 1
+#      LUT4_L                      : 1
+#      MUXF5                       : 2
+#      VCC                         : 1
+# FlipFlops/Latches                : 49
+#      FD                          : 7
+#      FDC                         : 8
+#      FDCE                        : 33
+#      FDP                         : 1
+# RAMS                             : 7
+#      RAM16X1S                    : 7
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 57
+#      IBUF                        : 23
+#      OBUF                        : 34
+# MULTs                            : 1
+#      MULT18X18                   : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1000ft256-4 
+
+ Number of Slices:                       48  out of   7680     0%  
+ Number of Slice Flip Flops:             49  out of  15360     0%  
+ Number of 4 input LUTs:                 86  out of  15360     0%  
+    Number used as logic:                79
+    Number used as RAMs:                  7
+ Number of IOs:                          58
+ Number of bonded IOBs:                  58  out of    173    33%  
+ Number of MULT18X18s:                    1  out of     24     4%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 56    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 42    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 8.957ns (Maximum Frequency: 111.645MHz)
+   Minimum input arrival time before clock: 6.524ns
+   Maximum output required time after clock: 16.528ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 8.957ns (frequency: 111.645MHz)
+  Total number of paths / destination ports: 841 / 103
+-------------------------------------------------------------------------
+Delay:               8.957ns (Levels of Logic = 3)
+  Source:            control/STATE_FSM_FFd1 (FF)
+  Destination:       ruta_datos/reg_x/Q_15 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: control/STATE_FSM_FFd1 to ruta_datos/reg_x/Q_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             20   0.720   1.613  control/STATE_FSM_FFd1 (control/STATE_FSM_FFd1)
+     LUT3:I2->O            1   0.551   0.801  ruta_datos/A<0>1 (ruta_datos/A<0>)
+     MULT18X18:A0->P15     2   3.615   0.903  ruta_datos/multi/Mmult_C_i (ruta_datos/C<15>)
+     LUT4:I3->O            1   0.551   0.000  ruta_datos/x_in<15>1 (ruta_datos/x_in<15>)
+     FDCE:D                    0.203          ruta_datos/reg_x/Q_15
+    ----------------------------------------
+    Total                      8.957ns (5.640ns logic, 3.317ns route)
+                                       (63.0% logic, 37.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 123 / 38
+-------------------------------------------------------------------------
+Offset:              6.524ns (Levels of Logic = 4)
+  Source:            n<4> (PAD)
+  Destination:       ruta_datos/reg_x/Q_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: n<4> to ruta_datos/reg_x/Q_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.821   1.216  n_4_IBUF (n_4_IBUF)
+     LUT4:I0->O            1   0.551   0.869  ruta_datos/num_k26 (ruta_datos/num_k26)
+     LUT4_D:I2->LO         1   0.551   0.126  ruta_datos/num_k78 (N8)
+     LUT4:I3->O           16   0.551   1.237  control/control_aux_1_mux00001 (control_aux<1>)
+     FDCE:CE                   0.602          ruta_datos/reg_x/Q_0
+    ----------------------------------------
+    Total                      6.524ns (3.076ns logic, 3.448ns route)
+                                       (47.1% logic, 52.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 882 / 34
+-------------------------------------------------------------------------
+Offset:              16.528ns (Levels of Logic = 4)
+  Source:            control/STATE_FSM_FFd1 (FF)
+  Destination:       y<31> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: control/STATE_FSM_FFd1 to y<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             20   0.720   1.613  control/STATE_FSM_FFd1 (control/STATE_FSM_FFd1)
+     LUT3:I2->O            1   0.551   0.801  ruta_datos/A<0>1 (ruta_datos/A<0>)
+     MULT18X18:A0->P31     1   4.851   0.996  ruta_datos/multi/Mmult_C_i (ruta_datos/C<31>)
+     LUT2:I1->O            1   0.551   0.801  ruta_datos/y<31>1 (y_31_OBUF)
+     OBUF:I->O                 5.644          y_31_OBUF (y<31>)
+    ----------------------------------------
+    Total                     16.528ns (12.317ns logic, 4.211ns route)
+                                       (74.5% logic, 25.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.52 secs
+ 
+--> 
+
+Total memory usage is 138044 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :   38 (   0 filtered)
+

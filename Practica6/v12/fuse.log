@@ -1,0 +1,38 @@
+Running: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o F:/TOC/Practica6/v12/tb_alg_isim_beh.exe -prj F:/TOC/Practica6/v12/tb_alg_beh.prj work.tb_alg 
+ISim M.81d (signature 0xcb73ee62)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "F:/TOC/Practica6/v12/../updown_counter.vhd" into library work
+Parsing VHDL file "F:/TOC/Practica6/v12/../sram_memory.vhd" into library work
+Parsing VHDL file "F:/TOC/Practica6/v12/../registrogenerico.vhd" into library work
+Parsing VHDL file "F:/TOC/Practica6/v12/../multiplicador.vhd" into library work
+Parsing VHDL file "F:/TOC/Practica6/v12/../data_path.vhd" into library work
+Parsing VHDL file "F:/TOC/Practica6/v12/../controller.vhd" into library work
+Parsing VHDL file "F:/TOC/Practica6/v12/../algorithmic.vhd" into library work
+Parsing VHDL file "F:/TOC/Practica6/v12/../simalgorithmic.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 61376 KB
+Fuse CPU Usage: 234 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package numeric_std from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Compiling architecture behavioral of entity controller [controller_default]
+Compiling architecture behavioral of entity registrogenerico [\registrogenerico(5)\]
+Compiling architecture behavioral of entity registrogenerico [\registrogenerico(16)\]
+Compiling architecture behavioral of entity registrogenerico [\registrogenerico(32)\]
+Compiling architecture behavioral of entity multiplicador [multiplicador_default]
+Compiling architecture behavioral of entity sram_memory [sram_memory_default]
+Compiling architecture behavioral of entity updown_counter [\updown_counter(5)\]
+Compiling architecture estructural of entity data_path [data_path_default]
+Compiling architecture behavioral of entity algorithmic [algorithmic_default]
+Compiling architecture behavior of entity tb_alg
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 24 VHDL Units
+Built simulation executable F:/TOC/Practica6/v12/tb_alg_isim_beh.exe
+Fuse Memory Usage: 67012 KB
+Fuse CPU Usage: 421 ms

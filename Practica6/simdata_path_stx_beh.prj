@@ -1,0 +1,6 @@
+vhdl isim_temp "updown_counter.vhd"
+vhdl isim_temp "sram_memory.vhd"
+vhdl isim_temp "registrogenerico.vhd"
+vhdl isim_temp "multiplicador.vhd"
+vhdl isim_temp "data_path.vhd"
+vhdl isim_temp "simdata_path.vhd"

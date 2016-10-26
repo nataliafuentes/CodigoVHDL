@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Xilinx/Practica6/registrogenerico.xst" -ofn "C:/Xilinx/Practica6/registrogenerico.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Practica6/registrogenerico.xst" -ofn "C:/Xilinx/Practica6/registrogenerico.syr" 

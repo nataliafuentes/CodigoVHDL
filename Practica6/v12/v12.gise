@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="v12.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="algorithmic.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="algorithmic.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="algorithmic.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="algorithmic.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="algorithmic.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="algorithmic.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="algorithmic.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="algorithmic.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="algorithmic_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="algorithmic_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="algorithmic_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="algorithmic_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_alg_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_alg_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_alg_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1453200567" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1453200567">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453200607" xil_pn:in_ck="8110608609857415433" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1453200607">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../algorithmic.vhd"/>
+      <outfile xil_pn:name="../controller.vhd"/>
+      <outfile xil_pn:name="../data_path.vhd"/>
+      <outfile xil_pn:name="../multiplicador.vhd"/>
+      <outfile xil_pn:name="../registrogenerico.vhd"/>
+      <outfile xil_pn:name="../simalgorithmic.vhd"/>
+      <outfile xil_pn:name="../simcontroller.vhd"/>
+      <outfile xil_pn:name="../simdata_path.vhd"/>
+      <outfile xil_pn:name="../simmultiplicador.vhd"/>
+      <outfile xil_pn:name="../simregistrogenerico.vhd"/>
+      <outfile xil_pn:name="../simsram_memory.vhd"/>
+      <outfile xil_pn:name="../simupdown_counter.vhd"/>
+      <outfile xil_pn:name="../sram_memory.vhd"/>
+      <outfile xil_pn:name="../updown_counter.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1453200567" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4702423525854139615" xil_pn:start_ts="1453200567">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453200567" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7395035660529312151" xil_pn:start_ts="1453200567">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453200567" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2032197674145072459" xil_pn:start_ts="1453200567">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453200607" xil_pn:in_ck="8110608609857415433" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1453200607">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../algorithmic.vhd"/>
+      <outfile xil_pn:name="../controller.vhd"/>
+      <outfile xil_pn:name="../data_path.vhd"/>
+      <outfile xil_pn:name="../multiplicador.vhd"/>
+      <outfile xil_pn:name="../registrogenerico.vhd"/>
+      <outfile xil_pn:name="../simalgorithmic.vhd"/>
+      <outfile xil_pn:name="../simcontroller.vhd"/>
+      <outfile xil_pn:name="../simdata_path.vhd"/>
+      <outfile xil_pn:name="../simmultiplicador.vhd"/>
+      <outfile xil_pn:name="../simregistrogenerico.vhd"/>
+      <outfile xil_pn:name="../simsram_memory.vhd"/>
+      <outfile xil_pn:name="../simupdown_counter.vhd"/>
+      <outfile xil_pn:name="../sram_memory.vhd"/>
+      <outfile xil_pn:name="../updown_counter.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1453200613" xil_pn:in_ck="8110608609857415433" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5802943749031341381" xil_pn:start_ts="1453200607">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="tb_alg_beh.prj"/>
+      <outfile xil_pn:name="tb_alg_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1453200614" xil_pn:in_ck="-5141191671790488584" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5451870703412848600" xil_pn:start_ts="1453200613">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_alg_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1453200164" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1453200164">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453200164" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5554578878749452274" xil_pn:start_ts="1453200164">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453200164" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-2032197674145072459" xil_pn:start_ts="1453200164">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453200164" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1453200164">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453200164" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-5134200992885395882" xil_pn:start_ts="1453200164">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453200164" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-7493580321282947067" xil_pn:start_ts="1453200164">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453200164" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="8982669325019392959" xil_pn:start_ts="1453200164">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453200563" xil_pn:in_ck="3521583248203584533" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-2876461472628725773" xil_pn:start_ts="1453200545">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="algorithmic.lso"/>
+      <outfile xil_pn:name="algorithmic.ngc"/>
+      <outfile xil_pn:name="algorithmic.ngr"/>
+      <outfile xil_pn:name="algorithmic.prj"/>
+      <outfile xil_pn:name="algorithmic.stx"/>
+      <outfile xil_pn:name="algorithmic.syr"/>
+      <outfile xil_pn:name="algorithmic.xst"/>
+      <outfile xil_pn:name="algorithmic_vhdl.prj"/>
+      <outfile xil_pn:name="algorithmic_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

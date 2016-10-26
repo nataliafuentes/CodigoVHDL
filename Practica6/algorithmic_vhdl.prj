@@ -1,0 +1,7 @@
+vhdl work "C:\Xilinx\Practica6\updown_counter.vhd"
+vhdl work "C:\Xilinx\Practica6\sram_memory.vhd"
+vhdl work "C:\Xilinx\Practica6\registrogenerico.vhd"
+vhdl work "C:\Xilinx\Practica6\multiplicador.vhd"
+vhdl work "C:\Xilinx\Practica6\data_path.vhd"
+vhdl work "C:\Xilinx\Practica6\controller.vhd"
+vhdl work "C:\Xilinx\Practica6\algorithmic.vhd"

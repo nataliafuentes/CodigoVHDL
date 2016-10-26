@@ -1,0 +1,2 @@
+vhdl isim_temp "sram_memory.vhd"
+vhdl isim_temp "simsram_memory.vhd"

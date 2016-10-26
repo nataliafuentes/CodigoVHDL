@@ -1,0 +1,50 @@
+ISim log file
+Running: F:\TOC\Practica6\v12\tb_alg_isim_beh.exe -gui -tclbatch isim.cmd -wdb F:/TOC/Practica6/v12/tb_alg_isim_beh.wdb 
+ISim M.81d (signature 0xcb73ee62)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us

@@ -1,0 +1,14 @@
+AR algorithmic behavioral F:/TOC/Practica6/algorithmic.vhd sub00/vhpl13 1453200565
+AR updown_counter behavioral F:/TOC/Practica6/updown_counter.vhd sub00/vhpl07 1453200559
+AR sram_memory behavioral F:/TOC/Practica6/sram_memory.vhd sub00/vhpl05 1453200557
+EN registrogenerico NULL F:/TOC/Practica6/registrogenerico.vhd sub00/vhpl00 1453200552
+EN multiplicador NULL F:/TOC/Practica6/multiplicador.vhd sub00/vhpl02 1453200554
+EN data_path NULL F:/TOC/Practica6/data_path.vhd sub00/vhpl10 1453200562
+EN updown_counter NULL F:/TOC/Practica6/updown_counter.vhd sub00/vhpl06 1453200558
+EN algorithmic NULL F:/TOC/Practica6/algorithmic.vhd sub00/vhpl12 1453200564
+EN sram_memory NULL F:/TOC/Practica6/sram_memory.vhd sub00/vhpl04 1453200556
+AR controller behavioral F:/TOC/Practica6/controller.vhd sub00/vhpl09 1453200561
+AR multiplicador behavioral F:/TOC/Practica6/multiplicador.vhd sub00/vhpl03 1453200555
+AR data_path estructural F:/TOC/Practica6/data_path.vhd sub00/vhpl11 1453200563
+AR registrogenerico behavioral F:/TOC/Practica6/registrogenerico.vhd sub00/vhpl01 1453200553
+EN controller NULL F:/TOC/Practica6/controller.vhd sub00/vhpl08 1453200560

@@ -1,0 +1,378 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.39 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.39 secs
+ 
+--> Reading design: updown_counter.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "updown_counter.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "updown_counter"
+Output Format                      : NGC
+Target Device                      : xc3s1000-5-ft256
+
+---- Source Options
+Top Module Name                    : updown_counter
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/Practica6/updown_counter.vhd" in Library work.
+Architecture behavioral of Entity updown_counter is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <updown_counter> in library <work> (architecture <behavioral>) with generics.
+	n = 32
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <updown_counter> in library <work> (Architecture <behavioral>).
+	n = 32
+Entity <updown_counter> analyzed. Unit <updown_counter> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <updown_counter>.
+    Related source file is "C:/Xilinx/Practica6/updown_counter.vhd".
+    Found 32-bit register for signal <do>.
+    Found 32-bit 4-to-1 multiplexer for signal <do$mux0002>.
+    Found 32-bit addsub for signal <do$share0000>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  32 Multiplexer(s).
+Unit <updown_counter> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit addsub                                         : 1
+# Registers                                            : 1
+ 32-bit register                                       : 1
+# Multiplexers                                         : 1
+ 32-bit 4-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit addsub                                         : 1
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+# Multiplexers                                         : 1
+ 32-bit 4-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <updown_counter> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block updown_counter, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : updown_counter.ngr
+Top Level Output File Name         : updown_counter
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 69
+
+Cell Usage :
+# BELS                             : 128
+#      INV                         : 1
+#      LUT2                        : 32
+#      LUT4                        : 32
+#      MUXCY                       : 31
+#      XORCY                       : 32
+# FlipFlops/Latches                : 32
+#      FDCE                        : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 68
+#      IBUF                        : 36
+#      OBUF                        : 32
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1000ft256-5 
+
+ Number of Slices:                       34  out of   7680     0%  
+ Number of 4 input LUTs:                 65  out of  15360     0%  
+ Number of IOs:                          69
+ Number of bonded IOBs:                  69  out of    173    39%  
+    IOB Flip Flops:                      32
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 32    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 32    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 7.623ns
+   Maximum output required time after clock: 6.216ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 1712 / 64
+-------------------------------------------------------------------------
+Offset:              7.623ns (Levels of Logic = 35)
+  Source:            cu (PAD)
+  Destination:       do_31 (FF)
+  Destination Clock: clk rising
+
+  Data Path: cu to do_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            65   0.715   1.736  cu_IBUF (cu_IBUF)
+     INV:I->O              1   0.479   0.681  do_mux00032_INV_0 (do_mux0003)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<0> (Maddsub_do_share0000_cy<0>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<1> (Maddsub_do_share0000_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<2> (Maddsub_do_share0000_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<3> (Maddsub_do_share0000_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<4> (Maddsub_do_share0000_cy<4>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<5> (Maddsub_do_share0000_cy<5>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<6> (Maddsub_do_share0000_cy<6>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<7> (Maddsub_do_share0000_cy<7>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<8> (Maddsub_do_share0000_cy<8>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<9> (Maddsub_do_share0000_cy<9>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<10> (Maddsub_do_share0000_cy<10>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<11> (Maddsub_do_share0000_cy<11>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<12> (Maddsub_do_share0000_cy<12>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<13> (Maddsub_do_share0000_cy<13>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<14> (Maddsub_do_share0000_cy<14>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<15> (Maddsub_do_share0000_cy<15>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<16> (Maddsub_do_share0000_cy<16>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<17> (Maddsub_do_share0000_cy<17>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<18> (Maddsub_do_share0000_cy<18>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<19> (Maddsub_do_share0000_cy<19>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<20> (Maddsub_do_share0000_cy<20>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<21> (Maddsub_do_share0000_cy<21>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<22> (Maddsub_do_share0000_cy<22>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<23> (Maddsub_do_share0000_cy<23>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<24> (Maddsub_do_share0000_cy<24>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<25> (Maddsub_do_share0000_cy<25>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<26> (Maddsub_do_share0000_cy<26>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<27> (Maddsub_do_share0000_cy<27>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<28> (Maddsub_do_share0000_cy<28>)
+     MUXCY:CI->O           1   0.056   0.000  Maddsub_do_share0000_cy<29> (Maddsub_do_share0000_cy<29>)
+     MUXCY:CI->O           0   0.056   0.000  Maddsub_do_share0000_cy<30> (Maddsub_do_share0000_cy<30>)
+     XORCY:CI->O           1   0.786   0.851  Maddsub_do_share0000_xor<31> (do_share0000<31>)
+     LUT4:I1->O            1   0.479   0.000  Mmux_do_mux0002501 (do_mux0002<31>)
+     FDCE:D                    0.176          do_31
+    ----------------------------------------
+    Total                      7.623ns (4.356ns logic, 3.268ns route)
+                                       (57.1% logic, 42.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              6.216ns (Levels of Logic = 1)
+  Source:            do_31 (FF)
+  Destination:       dout<31> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: do_31 to dout<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.626   0.681  do_31 (do_31)
+     OBUF:I->O                 4.909          dout_31_OBUF (dout<31>)
+    ----------------------------------------
+    Total                      6.216ns (5.535ns logic, 0.681ns route)
+                                       (89.0% logic, 11.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 12.77 secs
+ 
+--> 
+
+Total memory usage is 230488 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

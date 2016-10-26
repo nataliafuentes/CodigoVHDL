@@ -1,0 +1,401 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.24 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.24 secs
+ 
+--> Reading design: controller.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "controller.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "controller"
+Output Format                      : NGC
+Target Device                      : xc3s1000-5-ft256
+
+---- Source Options
+Top Module Name                    : controller
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/controller is now defined in a different file.  It was defined in "C:/Xilinx/Practica6_v12/controller.vhd", and is now defined in "C:/Xilinx/Practica6/controller.vhd".
+WARNING:HDLParsers:3607 - Unit work/controller/Behavioral is now defined in a different file.  It was defined in "C:/Xilinx/Practica6_v12/controller.vhd", and is now defined in "C:/Xilinx/Practica6/controller.vhd".
+Compiling vhdl file "C:/Xilinx/Practica6/controller.vhd" in Library work.
+Entity <controller> compiled.
+Entity <controller> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <controller> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <controller> in library <work> (Architecture <behavioral>).
+Entity <controller> analyzed. Unit <controller> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <controller>.
+    Related source file is "C:/Xilinx/Practica6/controller.vhd".
+    Found finite state machine <FSM_0> for signal <STATE>.
+    -----------------------------------------------------------------------
+    | States             | 10                                             |
+    | Transitions        | 15                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 11                                             |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <controller> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <STATE/FSM> on signal <STATE[1:10]> with one-hot encoding.
+---------------------
+ State | Encoding
+---------------------
+ s0    | 0000000001
+ s1    | 0000000010
+ s2    | 0000000100
+ s3    | 0000001000
+ s4    | 0000010000
+ s5    | 0000100000
+ s6    | 0001000000
+ s7    | 0100000000
+ s8    | 1000000000
+ s9    | 0010000000
+---------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <controller> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block controller, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 10
+ Flip-Flops                                            : 10
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : controller.ngr
+Top Level Output File Name         : controller
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 18
+
+Cell Usage :
+# BELS                             : 12
+#      GND                         : 1
+#      LUT2                        : 3
+#      LUT3                        : 5
+#      LUT4                        : 3
+# FlipFlops/Latches                : 10
+#      FDC                         : 9
+#      FDP                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 17
+#      IBUF                        : 5
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1000ft256-5 
+
+ Number of Slices:                        6  out of   7680     0%  
+ Number of Slice Flip Flops:             10  out of  15360     0%  
+ Number of 4 input LUTs:                 11  out of  15360     0%  
+ Number of IOs:                          18
+ Number of bonded IOBs:                  18  out of    173    10%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 10    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 10    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 2.234ns (Maximum Frequency: 447.658MHz)
+   Minimum input arrival time before clock: 3.865ns
+   Maximum output required time after clock: 7.773ns
+   Maximum combinational path delay: 7.996ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.234ns (frequency: 447.658MHz)
+  Total number of paths / destination ports: 14 / 10
+-------------------------------------------------------------------------
+Delay:               2.234ns (Levels of Logic = 1)
+  Source:            STATE_FSM_FFd4 (FF)
+  Destination:       STATE_FSM_FFd3 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: STATE_FSM_FFd4 to STATE_FSM_FFd3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.626   0.953  STATE_FSM_FFd4 (STATE_FSM_FFd4)
+     LUT2:I1->O            1   0.479   0.000  STATE_FSM_FFd2-In1 (STATE_FSM_FFd2-In)
+     FDC:D                     0.176          STATE_FSM_FFd2
+    ----------------------------------------
+    Total                      2.234ns (1.281ns logic, 0.953ns route)
+                                       (57.3% logic, 42.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 9 / 6
+-------------------------------------------------------------------------
+Offset:              3.865ns (Levels of Logic = 3)
+  Source:            num_x (PAD)
+  Destination:       STATE_FSM_FFd6 (FF)
+  Destination Clock: clk rising
+
+  Data Path: num_x to STATE_FSM_FFd6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.715   1.040  num_x_IBUF (num_x_IBUF)
+     LUT2:I0->O            1   0.479   0.976  STATE_FSM_FFd6-In_SW0 (N2)
+     LUT4:I0->O            1   0.479   0.000  STATE_FSM_FFd6-In (STATE_FSM_FFd6-In)
+     FDC:D                     0.176          STATE_FSM_FFd6
+    ----------------------------------------
+    Total                      3.865ns (1.849ns logic, 2.016ns route)
+                                       (47.8% logic, 52.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 18 / 11
+-------------------------------------------------------------------------
+Offset:              7.773ns (Levels of Logic = 2)
+  Source:            STATE_FSM_FFd4 (FF)
+  Destination:       control<9> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: STATE_FSM_FFd4 to control<9>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.626   1.078  STATE_FSM_FFd4 (STATE_FSM_FFd4)
+     LUT3:I0->O            1   0.479   0.681  control_aux_9_mux00001 (control_9_OBUF)
+     OBUF:I->O                 4.909          control_9_OBUF (control<9>)
+    ----------------------------------------
+    Total                      7.773ns (6.014ns logic, 1.759ns route)
+                                       (77.4% logic, 22.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Delay:               7.996ns (Levels of Logic = 3)
+  Source:            num_k (PAD)
+  Destination:       control<4> (PAD)
+
+  Data Path: num_k to control<4>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   0.715   1.148  num_k_IBUF (num_k_IBUF)
+     LUT3:I0->O            2   0.479   0.745  control<4>1 (control_4_OBUF)
+     OBUF:I->O                 4.909          control_4_OBUF (control<4>)
+    ----------------------------------------
+    Total                      7.996ns (6.103ns logic, 1.893ns route)
+                                       (76.3% logic, 23.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 12.28 secs
+ 
+--> 
+
+Total memory usage is 246680 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,2 @@
+vhdl isim_temp "registrogenerico.vhd"
+vhdl isim_temp "simregistrogenerico.vhd"

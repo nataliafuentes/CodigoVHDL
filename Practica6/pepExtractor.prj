@@ -1,0 +1,7 @@
+work	"algorithmic.vhd"
+work	"controller.vhd"
+work	"data_path.vhd"
+work	"multiplicador.vhd"
+work	"registrogenerico.vhd"
+work	"sram_memory.vhd"
+work	"updown_counter.vhd"
