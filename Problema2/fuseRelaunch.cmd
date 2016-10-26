@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/Problema2/simnumeroprimo_isim_beh.exe" -prj "C:/Xilinx/Problema2/simnumeroprimo_beh.prj" "work.simnumeroprimo" 
