@@ -1,0 +1,6 @@
+V3 3
+FL C:/Xilinx/Problema14/reg_des_izq.vhd 2015/12/24.17:10:20 P.20131013
+EN work/reg_des_izq 1450973426 FL C:/Xilinx/Problema14/reg_des_izq.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/reg_des_izq/Behavioral 1450973427 \
+      FL C:/Xilinx/Problema14/reg_des_izq.vhd EN work/reg_des_izq 1450973426

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/Problema14/simreg_des_izq_isim_beh.exe" -prj "C:/Xilinx/Problema14/simreg_des_izq_beh.prj" "work.simreg_des_izq" 
