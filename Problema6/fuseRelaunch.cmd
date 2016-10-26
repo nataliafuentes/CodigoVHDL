@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/Problema6/simlavaplatos_isim_beh.exe" -prj "C:/Xilinx/Problema6/simlavaplatos_beh.prj" "work.simlavaplatos" 

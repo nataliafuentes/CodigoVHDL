@@ -1,0 +1,30 @@
+Command line:
+   simlavaplatos_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49593
+
+Sat Dec 19 14:04:16 2015
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 360.423 Meg
+
+ Total Signals          : 20
+ Total Nets             : 11
+ Total Signal Drivers   : 11
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 4
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 372
+Total Line Count : 118
+Total Line Count : 118
+
+ Total Simulation Time: 0.3125 sec
+
+ Current Memory Usage: 517.718 Meg
+
+Sat Dec 19 14:06:10 2015
+
