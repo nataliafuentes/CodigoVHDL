@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Xilinx/Problema13/Paridad.xst" -ofn "C:/Xilinx/Problema13/Paridad.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Problema13/Paridad.xst" -ofn "C:/Xilinx/Problema13/Paridad.syr" 

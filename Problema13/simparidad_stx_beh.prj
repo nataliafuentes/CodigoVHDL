@@ -1,0 +1,2 @@
+vhdl isim_temp "Paridad.vhd"
+vhdl isim_temp "simparidad.vhd"

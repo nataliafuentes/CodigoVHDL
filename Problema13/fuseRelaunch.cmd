@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/Problema13/simparidad_isim_beh.exe" -prj "C:/Xilinx/Problema13/simparidad_beh.prj" "work.simparidad" 

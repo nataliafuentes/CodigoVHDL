@@ -1,0 +1,6 @@
+V3 3
+FL C:/Xilinx/Problema13/Paridad.vhd 2015/12/24.10:26:20 P.20131013
+EN work/Paridad 1450949190 FL C:/Xilinx/Problema13/Paridad.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Paridad/Behavioral 1450949191 \
+      FL C:/Xilinx/Problema13/Paridad.vhd EN work/Paridad 1450949190
