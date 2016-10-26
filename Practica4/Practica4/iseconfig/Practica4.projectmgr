@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Practica4" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/data_path - estructural C:|Xilinx|Practica4|data_path.vhd</ClosedNode>
+         <ClosedNode>/divider - estructural C:|Users|usuario_local|Xilinx|Practica4|divider.vhd/ruta_datos - data_path - estructural</ClosedNode>
+         <ClosedNode>/divider - estructural C:|Xilinx|Practica4|divider.vhd/ruta_datos - data_path - estructural</ClosedNode>
+         <ClosedNode>/divider_N - estructural C:|Users|usuario_local|Xilinx|Practica4|divider_N.vhd/ruta_datos - data_path_N - estructural</ClosedNode>
+         <ClosedNode>/divider_N - estructural C:|Xilinx|Practica4|divider_N.vhd/ruta_datos - data_path_N - Behavioral</ClosedNode>
+         <ClosedNode>/divider_N - estructural C:|Xilinx|Practica4|divider_N.vhd/ruta_datos - data_path_N - estructural</ClosedNode>
+         <ClosedNode>/simu4b_3_6 - behavior C:|Users|usuario_local|Xilinx|Practica4|simu4a_m3_n6.vhd/uut - divider - estructural/ruta_datos - data_path - estructural</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>divider_N - estructural (C:/Xilinx/Practica4/divider_N.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >8</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001d7000000020000000000000000000000000200000064ffffffff000000810000000300000002000001d70000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>divider_N - estructural (C:/Xilinx/Practica4/divider_N.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001b10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>controller.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/data_path - estructural C:|Xilinx|Practica4|data_path.vhd</ClosedNode>
+         <ClosedNode>/divider_N - estructural C:|Users|usuario_local|Xilinx|Practica4|divider_N.vhd</ClosedNode>
+         <ClosedNode>/divider_N - estructural C:|Xilinx|Practica4|divider_N.vhd</ClosedNode>
+         <ClosedNode>/simcomparador - behavior C:|Users|usuario_local|Xilinx|Practica4|simcomparador.vhd</ClosedNode>
+         <ClosedNode>/simcomparador - behavior C:|Xilinx|Practica4|simcomparador.vhd</ClosedNode>
+         <ClosedNode>/simcontroller - behavior C:|Users|usuario_local|Xilinx|Practica4|simcontroller.vhd</ClosedNode>
+         <ClosedNode>/simcontroller - behavior C:|Xilinx|Practica4|simcontroller.vhd</ClosedNode>
+         <ClosedNode>/simdata_path - behavior C:|Users|usuario_local|Xilinx|Practica4|simdata_path.vhd</ClosedNode>
+         <ClosedNode>/simdivider - behavior C:|Users|usuario_local|Xilinx|Practica4|simdivider.vhd/uut - divider - estructural</ClosedNode>
+         <ClosedNode>/simdivider - behavior C:|Xilinx|Practica4|simdivider.vhd/uut - divider - estructural/ruta_datos - data_path - estructural</ClosedNode>
+         <ClosedNode>/simregistro - behavior C:|Users|usuario_local|Xilinx|Practica4|simregistro.vhd</ClosedNode>
+         <ClosedNode>/simregistro - behavior C:|Xilinx|Practica4|simregistro.vhd</ClosedNode>
+         <ClosedNode>/simregistro_coc - behavior C:|Users|usuario_local|Xilinx|Practica4|simregistro_coc.vhd</ClosedNode>
+         <ClosedNode>/simregistro_coc - behavior C:|Xilinx|Practica4|simregistro_coc.vhd</ClosedNode>
+         <ClosedNode>/simregistro_des - behavior C:|Users|usuario_local|Xilinx|Practica4|simregistro_des.vhd</ClosedNode>
+         <ClosedNode>/simregistro_des - behavior C:|Xilinx|Practica4|simregistro_des.vhd</ClosedNode>
+         <ClosedNode>/simsumador_restador - behavior C:|Users|usuario_local|Xilinx|Practica4|simsumador_restador.vhd</ClosedNode>
+         <ClosedNode>/simsumador_restador - behavior C:|Xilinx|Practica4|simsumador_restador.vhd</ClosedNode>
+         <ClosedNode>/simu4b_3_6 - behavior C:|Users|usuario_local|Xilinx|Practica4|simu4a_m3_n6.vhd</ClosedNode>
+         <ClosedNode>/simu4b_3_6 - behavior C:|Xilinx|Practica4|simu4a_m3_n6.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>simdivider - behavior (C:/Xilinx/Practica4/simdivider.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >11</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c3000000020000000000000000000000000200000064ffffffff000000810000000300000002000001c30000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>simdivider - behavior (C:/Xilinx/Practica4/simdivider.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014c000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014c0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

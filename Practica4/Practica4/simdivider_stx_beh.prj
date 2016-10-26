@@ -1,0 +1,8 @@
+vhdl isim_temp "sumador_restador.vhd"
+vhdl isim_temp "registro_des.vhd"
+vhdl isim_temp "registro_coc.vhd"
+vhdl isim_temp "registro.vhd"
+vhdl isim_temp "data_path.vhd"
+vhdl isim_temp "controller.vhd"
+vhdl isim_temp "divider.vhd"
+vhdl isim_temp "simdivider.vhd"

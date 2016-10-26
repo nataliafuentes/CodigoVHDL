@@ -1,0 +1,16 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Xilinx/Practica4definitiva/simu4b_3_6_isim_beh.exe -prj C:/Xilinx/Practica4definitiva/simu4b_3_6_beh.prj work.simu4b_3_6 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Xilinx/Practica4definitiva/sumador_restador_N.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Practica4definitiva/registro_N.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Practica4definitiva/registro_des_N.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Practica4definitiva/registro_coc_N.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Practica4definitiva/data_path_N.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Practica4definitiva/controller.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Practica4definitiva/divider.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Practica4definitiva/simu4a_m3_n6.vhd" into library work
+Starting static elaboration
+ERROR:HDLCompiler:410 - "C:/Xilinx/Practica4definitiva/data_path_N.vhd" Line 91: Expression has 9 elements ; expected 7
+ERROR:Simulator:777 - Static elaboration of top level VHDL design unit simu4b_3_6 in library work failed

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Xilinx/Practica4definitiva/data_path.xst" -ofn "C:/Xilinx/Practica4definitiva/data_path.syr" 

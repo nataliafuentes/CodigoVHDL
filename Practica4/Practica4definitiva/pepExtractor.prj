@@ -1,0 +1,7 @@
+work	"controller.vhd"
+work	"data_path.vhd"
+work	"divider_sin.vhd"
+work	"registro.vhd"
+work	"registro_coc.vhd"
+work	"registro_des.vhd"
+work	"sumador_restador.vhd"

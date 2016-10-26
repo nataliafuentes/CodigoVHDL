@@ -1,0 +1,95 @@
+V3 69
+FL C:/Users/usuario_local/Xilinx/Practica4/controller.vhd 2015/11/24.19:45:39 P.20131013
+FL C:/Users/usuario_local/Xilinx/Practica4/data_path.vhd 2015/11/24.15:45:24 P.20131013
+FL C:/Users/usuario_local/Xilinx/Practica4/divider.vhd 2015/11/24.19:47:27 P.20131013
+FL C:/Users/usuario_local/Xilinx/Practica4/registro.vhd 2015/11/23.23:29:28 P.20131013
+FL C:/Users/usuario_local/Xilinx/Practica4/registro_coc.vhd 2015/11/23.20:02:00 P.20131013
+FL C:/Users/usuario_local/Xilinx/Practica4/registro_des.vhd 2015/11/23.19:41:18 P.20131013
+FL C:/Users/usuario_local/Xilinx/Practica4/sumador_restador.vhd 2015/11/23.19:51:04 P.20131013
+FL C:/Xilinx/practica1/divisor.vhd 2015/10/14.14:20:06 P.20131013
+FL C:/Xilinx/Practica4/comparador.vhd 2015/11/23.16:31:16 P.20131013
+EN work/comparador 1448375255 FL C:/Xilinx/Practica4/comparador.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/comparador/Behavioral 1448375256 \
+      FL C:/Xilinx/Practica4/comparador.vhd EN work/comparador 1448375255
+FL C:/Xilinx/Practica4/comparador_N.vhd 2015/11/24.15:15:38 P.20131013
+EN work/comparador_N 0 FL C:/Xilinx/Practica4/comparador_N.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/comparador_N/Behavioral 0 \
+      FL C:/Xilinx/Practica4/comparador_N.vhd EN work/comparador_N 0
+FL C:/Xilinx/Practica4/controller.vhd 2015/11/24.19:45:40 P.20131013
+EN work/controller 1448400514 FL C:/Xilinx/Practica4/controller.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/controller/Behavioral 1448400515 \
+      FL C:/Xilinx/Practica4/controller.vhd EN work/controller 1448400514
+FL C:/Xilinx/Practica4/data_path.vhd 2015/11/24.15:45:24 P.20131013
+EN work/data_path 1448400516 FL C:/Xilinx/Practica4/data_path.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/data_path/estructural 1448400517 \
+      FL C:/Xilinx/Practica4/data_path.vhd EN work/data_path 1448400516 \
+      CP registro CP registro_des CP registro_coc CP sumador_restador
+FL C:/Xilinx/Practica4/data_path_N.vhd 2015/11/24.15:34:41 P.20131013
+EN work/data_path_N 1448375700 FL C:/Xilinx/Practica4/data_path_N.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/data_path_N/estructural 1448375701 \
+      FL C:/Xilinx/Practica4/data_path_N.vhd EN work/data_path_N 1448375700 \
+      CP registro_N CP registro_des_N CP registro_coc_N CP sumador_restador_N
+FL C:/Xilinx/Practica4/divider.vhd 2015/11/24.22:28:10 P.20131013
+EN work/divider 1448400518 FL C:/Xilinx/Practica4/divider.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/divider/estructural 1448400519 \
+      FL C:/Xilinx/Practica4/divider.vhd EN work/divider 1448400518 CP controller \
+      CP data_path
+FL C:/Xilinx/Practica4/divider_N.vhd 2015/11/23.22:56:54 P.20131013
+EN work/divider_N 1448375702 FL C:/Xilinx/Practica4/divider_N.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/divider_N/estructural 1448375703 \
+      FL C:/Xilinx/Practica4/divider_N.vhd EN work/divider_N 1448375702 \
+      CP controller CP data_path_N
+FL C:/Xilinx/Practica4/divisor.vhd 2015/11/24.19:10:14 P.20131013
+EN work/divisor_i 1448400455 FL C:/Xilinx/Practica4/divisor.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/divisor_i/divisor_arch 1448400456 \
+      FL C:/Xilinx/Practica4/divisor.vhd EN work/divisor_i 1448400455
+FL C:/Xilinx/Practica4/registro.vhd 2015/11/23.23:29:28 P.20131013
+EN work/registro 1448400506 FL C:/Xilinx/Practica4/registro.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/registro/Behavioral 1448400507 \
+      FL C:/Xilinx/Practica4/registro.vhd EN work/registro 1448400506
+FL C:/Xilinx/Practica4/registro_coc.vhd 2015/11/23.20:02:00 P.20131013
+EN work/registro_coc 1448400510 FL C:/Xilinx/Practica4/registro_coc.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/registro_coc/Behavioral 1448400511 \
+      FL C:/Xilinx/Practica4/registro_coc.vhd EN work/registro_coc 1448400510
+FL C:/Xilinx/Practica4/registro_coc_N.vhd 2015/11/24.00:01:32 P.20131013
+EN work/registro_coc_N 1448375694 FL C:/Xilinx/Practica4/registro_coc_N.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/registro_coc_N/Behavioral 1448375695 \
+      FL C:/Xilinx/Practica4/registro_coc_N.vhd EN work/registro_coc_N 1448375694
+FL C:/Xilinx/Practica4/registro_des.vhd 2015/11/23.19:41:18 P.20131013
+EN work/registro_des 1448400508 FL C:/Xilinx/Practica4/registro_des.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/registro_des/Behavioral 1448400509 \
+      FL C:/Xilinx/Practica4/registro_des.vhd EN work/registro_des 1448400508
+FL C:/Xilinx/Practica4/registro_des_N.vhd 2015/11/23.23:56:17 P.20131013
+EN work/registro_des_N 1448375692 FL C:/Xilinx/Practica4/registro_des_N.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/registro_des_N/Behavioral 1448375693 \
+      FL C:/Xilinx/Practica4/registro_des_N.vhd EN work/registro_des_N 1448375692
+FL C:/Xilinx/Practica4/registro_N.vhd 2015/11/23.23:38:43 P.20131013
+EN work/registro_N 1448375690 FL C:/Xilinx/Practica4/registro_N.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/registro_N/Behavioral 1448375691 \
+      FL C:/Xilinx/Practica4/registro_N.vhd EN work/registro_N 1448375690
+FL C:/Xilinx/Practica4/sumador_restador.vhd 2015/11/23.19:51:04 P.20131013
+EN work/sumador_restador 1448400512 FL C:/Xilinx/Practica4/sumador_restador.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/sumador_restador/Behavioral 1448400513 \
+      FL C:/Xilinx/Practica4/sumador_restador.vhd EN work/sumador_restador 1448400512
+FL C:/Xilinx/Practica4/sumador_restador_N.vhd 2015/11/24.00:07:25 P.20131013
+EN work/sumador_restador_N 1448375696 \
+      FL C:/Xilinx/Practica4/sumador_restador_N.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/sumador_restador_N/Behavioral 1448375697 \
+      FL C:/Xilinx/Practica4/sumador_restador_N.vhd EN work/sumador_restador_N 1448375696
+FL D:/divisor.vhd 2015/11/24.19:10:14 P.20131013

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/Practica4/simregistro_coc_isim_beh.exe" -prj "C:/Xilinx/Practica4/simregistro_coc_beh.prj" "simregistro_coc" 

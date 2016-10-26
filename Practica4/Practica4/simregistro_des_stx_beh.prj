@@ -1,0 +1,2 @@
+vhdl isim_temp "registro_des.vhd"
+vhdl isim_temp "simregistro_des.vhd"

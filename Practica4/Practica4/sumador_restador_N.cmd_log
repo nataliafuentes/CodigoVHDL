@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Xilinx/Practica4/sumador_restador_N.xst" -ofn "C:/Xilinx/Practica4/sumador_restador_N.syr" 

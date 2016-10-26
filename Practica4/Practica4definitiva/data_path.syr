@@ -1,0 +1,454 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Reading design: data_path.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "data_path.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "data_path"
+Output Format                      : NGC
+Target Device                      : xc3s1000-5-ft256
+
+---- Source Options
+Top Module Name                    : data_path
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/Practica4definitiva/registro.vhd" in Library work.
+Architecture behavioral of Entity registro is up to date.
+Compiling vhdl file "C:/Xilinx/Practica4definitiva/registro_des.vhd" in Library work.
+Architecture behavioral of Entity registro_des is up to date.
+Compiling vhdl file "C:/Xilinx/Practica4definitiva/registro_coc.vhd" in Library work.
+Architecture behavioral of Entity registro_coc is up to date.
+Compiling vhdl file "C:/Xilinx/Practica4definitiva/sumador_restador.vhd" in Library work.
+Architecture behavioral of Entity sumador_restador is up to date.
+Compiling vhdl file "C:/Xilinx/Practica4definitiva/data_path.vhd" in Library work.
+Architecture estructural of Entity data_path is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <data_path> in library <work> (architecture <estructural>).
+
+Analyzing hierarchy for entity <registro> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <registro_des> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <registro_coc> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <sumador_restador> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <data_path> in library <work> (Architecture <estructural>).
+Entity <data_path> analyzed. Unit <data_path> generated.
+
+Analyzing Entity <registro> in library <work> (Architecture <behavioral>).
+Entity <registro> analyzed. Unit <registro> generated.
+
+Analyzing Entity <registro_des> in library <work> (Architecture <behavioral>).
+Entity <registro_des> analyzed. Unit <registro_des> generated.
+
+Analyzing Entity <registro_coc> in library <work> (Architecture <behavioral>).
+Entity <registro_coc> analyzed. Unit <registro_coc> generated.
+
+Analyzing Entity <sumador_restador> in library <work> (Architecture <behavioral>).
+Entity <sumador_restador> analyzed. Unit <sumador_restador> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <registro>.
+    Related source file is "C:/Xilinx/Practica4definitiva/registro.vhd".
+    Found 7-bit register for signal <Q>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+Unit <registro> synthesized.
+
+
+Synthesizing Unit <registro_des>.
+    Related source file is "C:/Xilinx/Practica4definitiva/registro_des.vhd".
+    Found 7-bit register for signal <Q_i>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+Unit <registro_des> synthesized.
+
+
+Synthesizing Unit <registro_coc>.
+    Related source file is "C:/Xilinx/Practica4definitiva/registro_coc.vhd".
+    Found 7-bit register for signal <Q_i>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+Unit <registro_coc> synthesized.
+
+
+Synthesizing Unit <sumador_restador>.
+    Related source file is "C:/Xilinx/Practica4definitiva/sumador_restador.vhd".
+    Found 7-bit addsub for signal <C>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <sumador_restador> synthesized.
+
+
+Synthesizing Unit <data_path>.
+    Related source file is "C:/Xilinx/Practica4definitiva/data_path.vhd".
+WARNING:Xst:646 - Signal <reg_cociente<6>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 7-bit comparator less for signal <comp$cmp_lt0000> created at line 109.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <data_path> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 7-bit addsub                                          : 2
+# Registers                                            : 4
+ 7-bit register                                        : 4
+# Comparators                                          : 1
+ 7-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <Q_i_6> (without init value) has a constant value of 0 in block <reg_div>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <Q_i_6> of sequential type is unconnected in block <reg_coci>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 7-bit addsub                                          : 2
+# Registers                                            : 28
+ Flip-Flops                                            : 28
+# Comparators                                          : 1
+ 7-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <Q_i_6> (without init value) has a constant value of 0 in block <registro_des>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <data_path> ...
+
+Optimizing unit <registro_des> ...
+
+Optimizing unit <registro_coc> ...
+WARNING:Xst:2677 - Node <reg_coci/Q_i_6> of sequential type is unconnected in block <data_path>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block data_path, actual ratio is 0.
+FlipFlop reg_coci/Q_i_0 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 27
+ Flip-Flops                                            : 27
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : data_path.ngr
+Top Level Output File Name         : data_path
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 27
+
+Cell Usage :
+# BELS                             : 62
+#      GND                         : 1
+#      LUT2                        : 12
+#      LUT3                        : 18
+#      LUT3_L                      : 1
+#      LUT4                        : 13
+#      LUT4_L                      : 1
+#      MUXCY                       : 6
+#      MUXF5                       : 3
+#      XORCY                       : 7
+# FlipFlops/Latches                : 27
+#      FDCE                        : 27
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 26
+#      IBUF                        : 18
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1000ft256-5 
+
+ Number of Slices:                       25  out of   7680     0%  
+ Number of Slice Flip Flops:             26  out of  15360     0%  
+ Number of 4 input LUTs:                 45  out of  15360     0%  
+ Number of IOs:                          27
+ Number of bonded IOBs:                  27  out of    173    15%  
+    IOB Flip Flops:                       1
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 27    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 27    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.960ns (Maximum Frequency: 201.605MHz)
+   Minimum input arrival time before clock: 5.781ns
+   Maximum output required time after clock: 8.210ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.960ns (frequency: 201.605MHz)
+  Total number of paths / destination ports: 125 / 24
+-------------------------------------------------------------------------
+Delay:               4.960ns (Levels of Logic = 9)
+  Source:            reg_div/Q_i_0 (FF)
+  Destination:       reg_divid/Q_6 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: reg_div/Q_i_0 to reg_divid/Q_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.626   0.851  reg_div/Q_i_0 (reg_div/Q_i_0)
+     LUT3:I1->O            1   0.479   0.000  sum_res/Maddsub_C_lut<0> (sum_res/Maddsub_C_lut<0>)
+     MUXCY:S->O            1   0.435   0.000  sum_res/Maddsub_C_cy<0> (sum_res/Maddsub_C_cy<0>)
+     MUXCY:CI->O           1   0.056   0.000  sum_res/Maddsub_C_cy<1> (sum_res/Maddsub_C_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  sum_res/Maddsub_C_cy<2> (sum_res/Maddsub_C_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  sum_res/Maddsub_C_cy<3> (sum_res/Maddsub_C_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  sum_res/Maddsub_C_cy<4> (sum_res/Maddsub_C_cy<4>)
+     MUXCY:CI->O           0   0.056   0.000  sum_res/Maddsub_C_cy<5> (sum_res/Maddsub_C_cy<5>)
+     XORCY:CI->O           1   0.786   0.851  sum_res/Maddsub_C_xor<6> (sum_out<6>)
+     LUT2:I1->O            1   0.479   0.000  dividend_o<6>1 (dividend_o<6>)
+     FDCE:D                    0.176          reg_divid/Q_6
+    ----------------------------------------
+    Total                      4.960ns (3.259ns logic, 1.702ns route)
+                                       (65.7% logic, 34.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 116 / 54
+-------------------------------------------------------------------------
+Offset:              5.781ns (Levels of Logic = 10)
+  Source:            control<5> (PAD)
+  Destination:       reg_divid/Q_6 (FF)
+  Destination Clock: clk rising
+
+  Data Path: control<5> to reg_divid/Q_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            21   0.715   1.583  control_5_IBUF (control<5>2)
+     LUT3:I0->O            1   0.479   0.000  sum_res/Maddsub_C_lut<0> (sum_res/Maddsub_C_lut<0>)
+     MUXCY:S->O            1   0.435   0.000  sum_res/Maddsub_C_cy<0> (sum_res/Maddsub_C_cy<0>)
+     MUXCY:CI->O           1   0.056   0.000  sum_res/Maddsub_C_cy<1> (sum_res/Maddsub_C_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  sum_res/Maddsub_C_cy<2> (sum_res/Maddsub_C_cy<2>)
+     MUXCY:CI->O           1   0.056   0.000  sum_res/Maddsub_C_cy<3> (sum_res/Maddsub_C_cy<3>)
+     MUXCY:CI->O           1   0.056   0.000  sum_res/Maddsub_C_cy<4> (sum_res/Maddsub_C_cy<4>)
+     MUXCY:CI->O           0   0.056   0.000  sum_res/Maddsub_C_cy<5> (sum_res/Maddsub_C_cy<5>)
+     XORCY:CI->O           1   0.786   0.851  sum_res/Maddsub_C_xor<6> (sum_out<6>)
+     LUT2:I1->O            1   0.479   0.000  dividend_o<6>1 (dividend_o<6>)
+     FDCE:D                    0.176          reg_divid/Q_6
+    ----------------------------------------
+    Total                      5.781ns (3.348ns logic, 2.434ns route)
+                                       (57.9% logic, 42.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 12 / 8
+-------------------------------------------------------------------------
+Offset:              8.210ns (Levels of Logic = 3)
+  Source:            registro_k/Q_2 (FF)
+  Destination:       comp (PAD)
+  Source Clock:      clk rising
+
+  Data Path: registro_k/Q_2 to comp
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             7   0.626   1.201  registro_k/Q_2 (registro_k/Q_2)
+     LUT4:I0->O            1   0.479   0.000  comp_or00001 (comp_or0000)
+     MUXF5:I0->O           1   0.314   0.681  comp_or0000_f5 (comp_OBUF)
+     OBUF:I->O                 4.909          comp_OBUF (comp)
+    ----------------------------------------
+    Total                      8.210ns (6.328ns logic, 1.882ns route)
+                                       (77.1% logic, 22.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 12.78 secs
+ 
+--> 
+
+Total memory usage is 249604 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

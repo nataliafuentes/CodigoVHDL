@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Xilinx/Practica4definitiva/registro_coc.xst" -ofn "C:/Xilinx/Practica4definitiva/registro_coc.syr" 

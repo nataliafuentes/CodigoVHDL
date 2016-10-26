@@ -1,0 +1,5 @@
+vhdl work "C:\Xilinx\Practica4\sumador_restador.vhd"
+vhdl work "C:\Xilinx\Practica4\registro_des.vhd"
+vhdl work "C:\Xilinx\Practica4\registro_coc.vhd"
+vhdl work "C:\Xilinx\Practica4\registro.vhd"
+vhdl work "C:\Xilinx\Practica4\data_path.vhd"

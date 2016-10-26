@@ -1,0 +1,7 @@
+vhdl work "sumador_restador.vhd"
+vhdl work "registro_des.vhd"
+vhdl work "registro_coc.vhd"
+vhdl work "registro.vhd"
+vhdl work "data_path.vhd"
+vhdl work "controller.vhd"
+vhdl work "divider_sin.vhd"

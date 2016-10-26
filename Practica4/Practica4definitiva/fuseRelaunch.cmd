@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/Practica4definitiva/simu4b_3_6_isim_beh.exe" -prj "C:/Xilinx/Practica4definitiva/simu4b_3_6_beh.prj" "work.simu4b_3_6" 

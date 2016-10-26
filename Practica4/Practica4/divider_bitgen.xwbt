@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\usuario_local\Xilinx\Practica4\divider.ncd
+OUTFILE=C:\Users\usuario_local\Xilinx\Practica4\divider.bit
+FAMILY=Spartan3
+PART=xc3s1000-5ft256
+WORKINGDIR=C:\Users\usuario_local\Xilinx\Practica4
+LICENSE=WebPack
+USER_INFO=210699396_1777489394_210552810_807

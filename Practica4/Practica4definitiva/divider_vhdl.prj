@@ -1,0 +1,7 @@
+vhdl work "C:\Xilinx\Practica4definitiva\sumador_restador_N.vhd"
+vhdl work "C:\Xilinx\Practica4definitiva\registro_N.vhd"
+vhdl work "C:\Xilinx\Practica4definitiva\registro_des_N.vhd"
+vhdl work "C:\Xilinx\Practica4definitiva\registro_coc_N.vhd"
+vhdl work "C:\Xilinx\Practica4definitiva\data_path_N.vhd"
+vhdl work "C:\Xilinx\Practica4definitiva\controller.vhd"
+vhdl work "C:\Xilinx\Practica4definitiva\divider.vhd"

@@ -1,0 +1,29 @@
+Command line:
+   simsumador_restador_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49428
+
+Wed Nov 25 15:56:41 2015
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 360.448 Meg
+
+ Total Signals          : 8
+ Total Nets             : 22
+ Total Signal Drivers   : 4
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 2
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 505
+Total Line Count : 18
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 360.448 Meg
+
+Wed Nov 25 15:56:55 2015
+

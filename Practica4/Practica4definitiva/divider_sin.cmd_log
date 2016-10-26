@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Xilinx/Practica4definitiva/divider_sin.xst" -ofn "C:/Xilinx/Practica4definitiva/divider_sin.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Practica4definitiva/divider_sin.xst" -ofn "C:/Xilinx/Practica4definitiva/divider_sin.syr" 
