@@ -1,0 +1,6 @@
+V3 3
+FL C:/Xilinx/Puertas/puertaxnor.vhd 2016/01/30.15:39:11 P.20131013
+EN work/puertaxnor 1454164758 FL C:/Xilinx/Puertas/puertaxnor.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/puertaxnor/Behavioral 1454164759 \
+      FL C:/Xilinx/Puertas/puertaxnor.vhd EN work/puertaxnor 1454164758
