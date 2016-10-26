@@ -1,0 +1,2 @@
+vhdl isim_temp "Reconocedor.vhd"
+vhdl isim_temp "simreconocedor.vhd"

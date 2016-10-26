@@ -1,0 +1,6 @@
+V3 3
+FL C:/Xilinx/Problema10/Reconocedor.vhd 2015/12/21.12:31:16 P.20131013
+EN work/Reconocedor 1450973561 FL C:/Xilinx/Problema10/Reconocedor.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Reconocedor/Behavioral 1450973562 \
+      FL C:/Xilinx/Problema10/Reconocedor.vhd EN work/Reconocedor 1450973561
