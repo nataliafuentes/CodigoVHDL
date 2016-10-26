@@ -1,0 +1,29 @@
+Command line:
+   simregistro_despl_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49458
+
+Wed Dec 23 12:53:42 2015
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 357.491 Meg
+
+ Total Signals          : 13
+ Total Nets             : 13
+ Total Signal Drivers   : 7
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 4
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 497
+Total Line Count : 38
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 672.08 Meg
+
+Wed Dec 23 12:54:28 2015
+

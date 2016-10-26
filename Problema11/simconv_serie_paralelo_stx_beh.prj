@@ -1,0 +1,4 @@
+vhdl isim_temp "registro_despl.vhd"
+vhdl isim_temp "contador_mod6.vhd"
+vhdl isim_temp "conv_serie_paralelo.vhd"
+vhdl isim_temp "simconv_serie_paralelo.vhd"

@@ -1,0 +1,24 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Xilinx/Problema11/simconv_serie_paralelo_isim_beh.exe -prj C:/Xilinx/Problema11/simconv_serie_paralelo_beh.prj work.simconv_serie_paralelo 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Xilinx/Problema11/registro_despl.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Problema11/contador_mod6.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Problema11/conv_serie_paralelo.vhd" into library work
+Parsing VHDL file "C:/Xilinx/Problema11/simconv_serie_paralelo.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity registro_despl [registro_despl_default]
+Compiling architecture behavioral of entity contador_mod6 [contador_mod6_default]
+Compiling architecture behavioral of entity conv_serie_paralelo [conv_serie_paralelo_default]
+Compiling architecture behavior of entity simconv_serie_paralelo
+Time Resolution for simulation is 1ps.
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: El sistema no puede encontrar la ruta especificada, "isim\simconv_serie_paralelo_isim_beh.exe.sim\libPortability.dll".
+Compiled 10 VHDL Units
+Built simulation executable C:/Xilinx/Problema11/simconv_serie_paralelo_isim_beh.exe
+Fuse Memory Usage: 34184 KB
+Fuse CPU Usage: 1249 ms

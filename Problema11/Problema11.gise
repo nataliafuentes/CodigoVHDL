@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Problema11.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="contador_mod6.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="contador_mod6.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="contador_mod6.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="contador_mod6.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="contador_mod6.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="contador_mod6.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="contador_mod6.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="contador_mod6.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="contador_mod6_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="contador_mod6_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="contador_mod6_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="contador_mod6_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="conv_serie_paralelo.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="conv_serie_paralelo.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="conv_serie_paralelo.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="conv_serie_paralelo.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="conv_serie_paralelo.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="conv_serie_paralelo.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="conv_serie_paralelo.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="conv_serie_paralelo.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="conv_serie_paralelo_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="conv_serie_paralelo_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="conv_serie_paralelo_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="conv_serie_paralelo_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="registro_despl.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="registro_despl.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="registro_despl.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="registro_despl.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="registro_despl.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="registro_despl.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="registro_despl.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="registro_despl.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="registro_despl_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="registro_despl_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="registro_despl_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="registro_despl_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="simcontador_mod6_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="simcontador_mod6_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="simconv_serie_paralelo_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="simconv_serie_paralelo_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="simconv_serie_paralelo_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="simconv_serie_paralelo_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="simregistro_despl_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="simregistro_despl_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1450872265" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1450872265">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1450948721" xil_pn:in_ck="-7494075885449891747" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1450948721">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="contador_mod6.vhd"/>
+      <outfile xil_pn:name="conv_serie_paralelo.vhd"/>
+      <outfile xil_pn:name="registro_despl.vhd"/>
+      <outfile xil_pn:name="simcontador_mod6.vhd"/>
+      <outfile xil_pn:name="simconv_serie_paralelo.vhd"/>
+      <outfile xil_pn:name="simregistro_despl.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1450872265" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3372675074771213179" xil_pn:start_ts="1450872265">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1450872265" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-938946743021613507" xil_pn:start_ts="1450872265">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1450872265" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3209950183824038249" xil_pn:start_ts="1450872265">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1450948725" xil_pn:in_ck="-7494075885449891747" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1450948725">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="contador_mod6.vhd"/>
+      <outfile xil_pn:name="conv_serie_paralelo.vhd"/>
+      <outfile xil_pn:name="registro_despl.vhd"/>
+      <outfile xil_pn:name="simcontador_mod6.vhd"/>
+      <outfile xil_pn:name="simconv_serie_paralelo.vhd"/>
+      <outfile xil_pn:name="simregistro_despl.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1450948733" xil_pn:in_ck="-7494075885449891747" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8131520341940002755" xil_pn:start_ts="1450948725">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="simconv_serie_paralelo_beh.prj"/>
+      <outfile xil_pn:name="simconv_serie_paralelo_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1450948734" xil_pn:in_ck="-559082155970649255" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1915073830791749728" xil_pn:start_ts="1450948733">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="simconv_serie_paralelo_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1450864993" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1450864993">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1450872682" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="322455370668643713" xil_pn:start_ts="1450872682">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1450872682" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3209950183824038249" xil_pn:start_ts="1450872682">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1450872682" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1450872682">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1450872682" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="6860741520713772745" xil_pn:start_ts="1450872682">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1450872682" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-7493580321282947067" xil_pn:start_ts="1450872682">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1450872682" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1021227910642536499" xil_pn:start_ts="1450872682">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1450872699" xil_pn:in_ck="8218223130208957569" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="6790860067184989097" xil_pn:start_ts="1450872682">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="contador_mod6.ngr"/>
+      <outfile xil_pn:name="conv_serie_paralelo.lso"/>
+      <outfile xil_pn:name="conv_serie_paralelo.ngc"/>
+      <outfile xil_pn:name="conv_serie_paralelo.ngr"/>
+      <outfile xil_pn:name="conv_serie_paralelo.prj"/>
+      <outfile xil_pn:name="conv_serie_paralelo.stx"/>
+      <outfile xil_pn:name="conv_serie_paralelo.syr"/>
+      <outfile xil_pn:name="conv_serie_paralelo.xst"/>
+      <outfile xil_pn:name="conv_serie_paralelo_vhdl.prj"/>
+      <outfile xil_pn:name="conv_serie_paralelo_xst.xrpt"/>
+      <outfile xil_pn:name="registro_despl.ngr"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

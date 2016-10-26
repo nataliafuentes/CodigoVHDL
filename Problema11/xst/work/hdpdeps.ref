@@ -1,0 +1,17 @@
+V3 11
+FL C:/Xilinx/Problema11/contador_mod6.vhd 2015/12/23.11:36:04 P.20131013
+EN work/contador_mod6 1450872689 FL C:/Xilinx/Problema11/contador_mod6.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/contador_mod6/Behavioral 1450872690 \
+      FL C:/Xilinx/Problema11/contador_mod6.vhd EN work/contador_mod6 1450872689
+FL C:/Xilinx/Problema11/conv_serie_paralelo.vhd 2015/12/23.13:11:18 P.20131013
+EN work/conv_serie_paralelo 1450872691 \
+      FL C:/Xilinx/Problema11/conv_serie_paralelo.vhd PB ieee/std_logic_1164 1381692176
+AR work/conv_serie_paralelo/Behavioral 1450872692 \
+      FL C:/Xilinx/Problema11/conv_serie_paralelo.vhd EN work/conv_serie_paralelo 1450872691 \
+      CP registro_despl CP contador_mod6
+FL C:/Xilinx/Problema11/registro_despl.vhd 2015/12/23.12:54:58 P.20131013
+EN work/registro_despl 1450872687 FL C:/Xilinx/Problema11/registro_despl.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/registro_despl/Behavioral 1450872688 \
+      FL C:/Xilinx/Problema11/registro_despl.vhd EN work/registro_despl 1450872687

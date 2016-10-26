@@ -1,0 +1,3 @@
+vhdl work "registro_despl.vhd"
+vhdl work "contador_mod6.vhd"
+vhdl work "conv_serie_paralelo.vhd"
