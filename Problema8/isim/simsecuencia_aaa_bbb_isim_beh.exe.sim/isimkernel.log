@@ -1,0 +1,30 @@
+Command line:
+   simsecuencia_aaa_bbb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49506
+
+Mon Dec 21 11:57:49 2015
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 357.409 Meg
+
+ Total Signals          : 10
+ Total Nets             : 6
+ Total Signal Drivers   : 6
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 4
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 367
+Total Line Count : 78
+Total Line Count : 78
+
+ Total Simulation Time: 1.01563 sec
+
+ Current Memory Usage: 357.409 Meg
+
+Mon Dec 21 12:03:33 2015
+

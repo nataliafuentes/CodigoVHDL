@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Xilinx/Problema8/secuencia_aaa_bbb.xst" -ofn "C:/Xilinx/Problema8/secuencia_aaa_bbb.syr" 

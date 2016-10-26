@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Xilinx/Problema8/simsecuencia_aaa_bbb_isim_beh.exe" -prj "C:/Xilinx/Problema8/simsecuencia_aaa_bbb_beh.prj" "work.simsecuencia_aaa_bbb" 

@@ -1,0 +1,6 @@
+V3 3
+FL C:/Xilinx/Problema8/secuencia_aaa_bbb.vhd 2015/12/21.11:39:09 P.20131013
+EN work/secuencia_aaa_bbb 1450694476 FL C:/Xilinx/Problema8/secuencia_aaa_bbb.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/secuencia_aaa_bbb/Behavioral 1450694477 \
+      FL C:/Xilinx/Problema8/secuencia_aaa_bbb.vhd EN work/secuencia_aaa_bbb 1450694476
